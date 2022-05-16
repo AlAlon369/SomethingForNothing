@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6dbf690-1ab4-4dd7-9318-91d7a7a4c39a" name="Changes" comment="Add new msg" />
+    <list default="true" id="f6dbf690-1ab4-4dd7-9318-91d7a7a4c39a" name="Changes" comment="add idea to gitignore">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Example3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,7 +32,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="29FE8AyWObiXy70M0adk0a6BLzm" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -45,7 +50,7 @@
     "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Example2">
+  <component name="RunManager" selected="Application.Example3">
     <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Example" />
       <module name="SomethingForNothing.main" />
@@ -60,8 +65,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Example3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Example3" />
+      <module name="SomethingForNothing.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Example3" />
         <item itemvalue="Application.Example2" />
         <item itemvalue="Application.Example" />
       </list>
@@ -75,7 +88,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652700276564</updated>
-      <workItem from="1652700278375" duration="1019000" />
+      <workItem from="1652700278375" duration="2556000" />
     </task>
     <task id="LOCAL-00001" summary="Greetings">
       <created>1652700338415</created>
@@ -105,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652701292336</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add idea to gitignore">
+      <created>1652701410520</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1652701410520</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +146,7 @@
     <MESSAGE value="Greetings" />
     <MESSAGE value="add example.java" />
     <MESSAGE value="Add new msg" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add new msg" />
+    <MESSAGE value="add idea to gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="add idea to gitignore" />
   </component>
 </project>
