@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6dbf690-1ab4-4dd7-9318-91d7a7a4c39a" name="Changes" comment="add Example3">
-      <change afterPath="$PROJECT_DIR$/src/main/java/GaltoLit.java" afterDir="false" />
+    <list default="true" id="f6dbf690-1ab4-4dd7-9318-91d7a7a4c39a" name="Changes" comment="Упражение 1.1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ifDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +50,7 @@
     "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.GaltoLit">
+  <component name="RunManager" selected="Application.ifDemo">
     <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Example" />
       <module name="SomethingForNothing.main" />
@@ -79,8 +79,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ifDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ifDemo" />
+      <module name="SomethingForNothing.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ifDemo" />
         <item itemvalue="Application.GaltoLit" />
         <item itemvalue="Application.Example3" />
         <item itemvalue="Application.Example2" />
@@ -96,7 +104,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652700276564</updated>
-      <workItem from="1652700278375" duration="3925000" />
+      <workItem from="1652700278375" duration="6173000" />
     </task>
     <task id="LOCAL-00001" summary="Greetings">
       <created>1652700338415</created>
@@ -140,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652703363251</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Упражение 1.1">
+      <created>1652704940787</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1652704940787</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +178,7 @@
     <MESSAGE value="Add new msg" />
     <MESSAGE value="add idea to gitignore" />
     <MESSAGE value="add Example3" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Example3" />
+    <MESSAGE value="Упражение 1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Упражение 1.1" />
   </component>
 </project>
