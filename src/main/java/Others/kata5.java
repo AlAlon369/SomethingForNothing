@@ -1,3 +1,5 @@
+package Others;
+
 public class kata5{
     public static void main(String[] args) {
         System.out.println(century(2001));
