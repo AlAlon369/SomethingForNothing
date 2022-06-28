@@ -4,116 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6dbf690-1ab4-4dd7-9318-91d7a7a4c39a" name="Changes" comment="Демонстрация алгоритма пузырьковой сортировки">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/Kata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/Kata9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Homework/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Homework/Lesson7/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Homework/Lesson7/EmployeeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Homework/Lesson8/EmployeeTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Homework/StudentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Homework/p1/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Homework/p1/p2/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Homework/p1/p2/p3/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Homework/p4/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Homework/p4/p5/E.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Others/Exams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Others/FindFac.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Others/JavaForBegginersLesson6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Others/LogicalOpTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Others/LtoD2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Others/QuarterOfYear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Others/TwoD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Others/exam2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Others/exam4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Others/nvm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Others/primenumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Zaur/lesson5/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Zaur/lesson5/BankAccountTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Zaur/lesson5/Car3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Zaur/lesson5/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Zaur/lesson5/HumanTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Zaur/lesson5/MethodsOverloaded.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Zaur/lesson5/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Zaur/lesson5/StudentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="f6dbf690-1ab4-4dd7-9318-91d7a7a4c39a" name="Changes" comment="поцаны пушат весь мусор">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BlockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/BlockDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BoolDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/BoolDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CastDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/CastDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CharArithDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/CharArithDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Comma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/Comma.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DWdemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/DWdemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DynInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/DynInit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Echo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/Echo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Empty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/Empty.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Empty2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/Empty2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Empty3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/Empty3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EvenOrOdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/EvenOrOdd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/Example.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Example2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/Example2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Example3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/Example3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ForDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/ForDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ForVar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/ForVar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GalToLitTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/GalToLitTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GaltoLit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/GaltoLit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Guess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/Guess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Guess2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/Guess2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Guess3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/Guess3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Help.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/Help.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Homework/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Homework/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Hypot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/Hypot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InchtoMeters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/InchtoMeters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaForBegginersLesson2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/JavaForBegginersLesson2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaForBegginersLesson3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/JavaForBegginersLesson3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaForBegginersLesson4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/JavaForBegginersLesson4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaForBegginersLesson5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/JavaForBegginersLesson5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaForBegginersLesson6.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaRaschetChislaKubDuimov.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/JavaRaschetChislaKubDuimov.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Kata2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Codewars/Kata2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Ladder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/Ladder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LtoD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/LtoD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ModDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/ModDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MyWeightOnMoon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/MyWeightOnMoon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NoBreak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/NoBreak.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Others/Break2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/Break2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Others/ContDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/ContDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Others/MinMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/schildt/chapter5/array/MinMax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Others/MinMax2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/schildt/chapter5/array/MinMax2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Others/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Others/kata10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Others/kata11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Others/kata13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata13.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Others/kata15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata15.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Others/kata16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata16.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Others/kata17.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata17.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Others/kata5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Others/kata8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PromDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/PromDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RelLogOps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/RelLogOps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SCops.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/SCops.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ScopeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/ScopeDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SideEffects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/SideEffects.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SqrRoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/SqrRoot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/StrDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/StrDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SwitchDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/SwitchDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UseCast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/UseCast.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/VarInitDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/VarInitDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WhileDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/WhileDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guess4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/guess4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ifDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/ifDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kata3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kata4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nvm2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/nvm2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/power.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/power.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/primenumbers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vicheslenierastoyaniyadomestavspishki.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/vicheslenierastoyaniyadomestavspishki.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,6 +26,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -163,6 +60,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\alone\IdeaProjects\SomethingForNothing\src\main\java\Codewars" />
       <recent name="C:\Users\alone\IdeaProjects\SomethingForNothing\src\main\java\Others" />
     </key>
   </component>
@@ -299,14 +197,7 @@
       <workItem from="1656172760965" duration="5512000" />
       <workItem from="1656334584701" duration="715000" />
       <workItem from="1656339228151" duration="1976000" />
-      <workItem from="1656417763827" duration="6067000" />
-    </task>
-    <task id="LOCAL-00048" summary="Демостранция использования инструкции switch.">
-      <created>1654523990818</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1654523990818</updated>
+      <workItem from="1656417763827" duration="6477000" />
     </task>
     <task id="LOCAL-00049" summary="Демостранция использования инструкции switch без break">
       <created>1654526678312</created>
@@ -644,7 +535,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656423131652</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="поцаны пушат весь мусор">
+      <created>1656425734465</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1656425734465</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -662,7 +560,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Zaur's Lesson 6, MethodOverloading: Перезагруженные методы имеют одинаковые имена и разный список параметров, пример 2-ой" />
     <MESSAGE value="Созданы три конструктора, конструкторы Overloaded, нельзя использовать один лист параметров для двух конструкторов." />
     <MESSAGE value="homework" />
     <MESSAGE value="Расположение метки имеет большое значение." />
@@ -687,7 +584,8 @@
     <MESSAGE value="Поиск минимального и максимального значения в массиве." />
     <MESSAGE value="Намеренный выход за пределы массива" />
     <MESSAGE value="Демонстрация алгоритма пузырьковой сортировки" />
-    <option name="LAST_COMMIT_MESSAGE" value="Демонстрация алгоритма пузырьковой сортировки" />
+    <MESSAGE value="поцаны пушат весь мусор" />
+    <option name="LAST_COMMIT_MESSAGE" value="поцаны пушат весь мусор" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
