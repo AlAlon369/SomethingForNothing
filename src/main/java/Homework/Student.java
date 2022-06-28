@@ -48,7 +48,7 @@ public class Student {
         st2.foreignLanguageAverageGrade = 9.9;
 
         Student st3 = new Student(3, "Arnold", "Swarznigger", 4, 0.5, 5.0, 10.0);
-        System.out.println(st1);
+        System.out.println(st3.name);
 
     }
 }

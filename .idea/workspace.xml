@@ -4,9 +4,116 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6dbf690-1ab4-4dd7-9318-91d7a7a4c39a" name="Changes" comment="Упражение 1.1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ifDemo.java" afterDir="false" />
+    <list default="true" id="f6dbf690-1ab4-4dd7-9318-91d7a7a4c39a" name="Changes" comment="Демонстрация алгоритма пузырьковой сортировки">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/Kata9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework/Lesson7/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework/Lesson7/EmployeeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework/Lesson8/EmployeeTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework/StudentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework/p1/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework/p1/p2/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework/p1/p2/p3/C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework/p4/D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework/p4/p5/E.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Others/Exams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Others/FindFac.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Others/JavaForBegginersLesson6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Others/LogicalOpTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Others/LtoD2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Others/QuarterOfYear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Others/TwoD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Others/exam2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Others/exam4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Others/nvm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Others/primenumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Zaur/lesson5/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Zaur/lesson5/BankAccountTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Zaur/lesson5/Car3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Zaur/lesson5/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Zaur/lesson5/HumanTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Zaur/lesson5/MethodsOverloaded.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Zaur/lesson5/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Zaur/lesson5/StudentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BlockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/BlockDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BoolDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/BoolDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CastDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/CastDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CharArithDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/CharArithDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Comma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/Comma.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DWdemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/DWdemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DynInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/DynInit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Echo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/Echo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Empty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/Empty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Empty2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/Empty2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Empty3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/Empty3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EvenOrOdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/EvenOrOdd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/Example.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Example2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/Example2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Example3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/Example3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ForDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/ForDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ForVar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/ForVar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GalToLitTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/GalToLitTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GaltoLit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/GaltoLit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Guess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/Guess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Guess2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/Guess2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Guess3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/Guess3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Help.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/Help.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Homework/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Homework/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Hypot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/Hypot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InchtoMeters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/InchtoMeters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JavaForBegginersLesson2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/JavaForBegginersLesson2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JavaForBegginersLesson3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/JavaForBegginersLesson3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JavaForBegginersLesson4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/JavaForBegginersLesson4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JavaForBegginersLesson5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/JavaForBegginersLesson5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JavaForBegginersLesson6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JavaRaschetChislaKubDuimov.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/JavaRaschetChislaKubDuimov.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Kata2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Codewars/Kata2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Ladder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/Ladder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LtoD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/LtoD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ModDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/ModDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MyWeightOnMoon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/MyWeightOnMoon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NoBreak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/NoBreak.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Others/Break2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/Break2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Others/ContDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/ContDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Others/MinMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/schildt/chapter5/array/MinMax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Others/MinMax2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/schildt/chapter5/array/MinMax2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Others/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Others/kata10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Others/kata11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Others/kata13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Others/kata15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Others/kata16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Others/kata17.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Others/kata5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Others/kata8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PromDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/PromDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RelLogOps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/RelLogOps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SCops.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/SCops.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ScopeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/ScopeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SideEffects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/SideEffects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SqrRoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/SqrRoot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StrDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/StrDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SwitchDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/SwitchDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UseCast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/UseCast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/VarInitDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/VarInitDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WhileDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/WhileDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guess4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/guess4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ifDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/ifDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kata3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kata4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nvm2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/nvm2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/power.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/power.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/primenumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vicheslenierastoyaniyadomestavspishki.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Others/vicheslenierastoyaniyadomestavspishki.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +128,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -39,60 +147,98 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.ifDemo">
-    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Example" />
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\alone\IdeaProjects\SomethingForNothing\src\main\java\Others" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Others.TwoD">
+    <configuration name="Others.Bubble" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Others.Bubble" />
       <module name="SomethingForNothing.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="schildt.chapter5.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Example2" />
+    <configuration name="Others.TwoD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Others.TwoD" />
       <module name="SomethingForNothing.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="schildt.chapter5.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Example3" />
+    <configuration name="schildt.chapter5.array.ArrayErr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="schildt.chapter5.array.ArrayErr" />
       <module name="SomethingForNothing.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="schildt.chapter5.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GaltoLit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GaltoLit" />
+    <configuration name="schildt.chapter5.array.MinMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="schildt.chapter5.array.MinMax" />
       <module name="SomethingForNothing.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="schildt.chapter5.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ifDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ifDemo" />
+    <configuration name="schildt.chapter5.array.MinMax2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="schildt.chapter5.array.MinMax2" />
       <module name="SomethingForNothing.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="schildt.chapter5.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ifDemo" />
-        <item itemvalue="Application.GaltoLit" />
-        <item itemvalue="Application.Example3" />
-        <item itemvalue="Application.Example2" />
-        <item itemvalue="Application.Example" />
+        <item itemvalue="Application.Others.TwoD" />
+        <item itemvalue="Application.Others.Bubble" />
+        <item itemvalue="Application.schildt.chapter5.array.ArrayErr" />
+        <item itemvalue="Application.schildt.chapter5.array.MinMax2" />
+        <item itemvalue="Application.schildt.chapter5.array.MinMax" />
       </list>
     </recent_temporary>
   </component>
@@ -104,58 +250,401 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652700276564</updated>
-      <workItem from="1652700278375" duration="6173000" />
+      <workItem from="1652700278375" duration="7413000" />
+      <workItem from="1652782045483" duration="9709000" />
+      <workItem from="1652875795424" duration="11013000" />
+      <workItem from="1652958391976" duration="10393000" />
+      <workItem from="1653036071789" duration="7281000" />
+      <workItem from="1653140075220" duration="3756000" />
+      <workItem from="1653297515136" duration="4413000" />
+      <workItem from="1653308110595" duration="11003000" />
+      <workItem from="1653324456589" duration="372000" />
+      <workItem from="1653397228510" duration="9221000" />
+      <workItem from="1653582786921" duration="3469000" />
+      <workItem from="1653643833942" duration="4510000" />
+      <workItem from="1653832742318" duration="12299000" />
+      <workItem from="1653919525193" duration="3535000" />
+      <workItem from="1653927593697" duration="8403000" />
+      <workItem from="1654132542349" duration="450000" />
+      <workItem from="1654180378715" duration="13605000" />
+      <workItem from="1654347889347" duration="7156000" />
+      <workItem from="1654362465571" duration="8875000" />
+      <workItem from="1654520816284" duration="2212000" />
+      <workItem from="1654526389738" duration="5054000" />
+      <workItem from="1654603430528" duration="11373000" />
+      <workItem from="1654698407605" duration="12998000" />
+      <workItem from="1654787198333" duration="2211000" />
+      <workItem from="1654790252555" duration="10327000" />
+      <workItem from="1654853787625" duration="15741000" />
+      <workItem from="1654933693642" duration="1676000" />
+      <workItem from="1655042814627" duration="18811000" />
+      <workItem from="1655084444596" duration="318000" />
+      <workItem from="1655140573163" duration="10410000" />
+      <workItem from="1655196950754" duration="14033000" />
+      <workItem from="1655309888171" duration="12273000" />
+      <workItem from="1655463768817" duration="9191000" />
+      <workItem from="1655483443707" duration="333000" />
+      <workItem from="1655550505297" duration="3890000" />
+      <workItem from="1655567809560" duration="5182000" />
+      <workItem from="1655719479393" duration="13461000" />
+      <workItem from="1655811358400" duration="602000" />
+      <workItem from="1655815003491" duration="2917000" />
+      <workItem from="1655827302309" duration="8772000" />
+      <workItem from="1655895817290" duration="10021000" />
+      <workItem from="1655925260785" duration="1528000" />
+      <workItem from="1655983166127" duration="3261000" />
+      <workItem from="1655999337011" duration="8556000" />
+      <workItem from="1656062890963" duration="4579000" />
+      <workItem from="1656086868733" duration="9610000" />
+      <workItem from="1656172760965" duration="5512000" />
+      <workItem from="1656334584701" duration="715000" />
+      <workItem from="1656339228151" duration="1976000" />
+      <workItem from="1656417763827" duration="6067000" />
     </task>
-    <task id="LOCAL-00001" summary="Greetings">
-      <created>1652700338415</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
+    <task id="LOCAL-00048" summary="Демостранция использования инструкции switch.">
+      <created>1654523990818</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
       <option name="project" value="LOCAL" />
-      <updated>1652700338415</updated>
+      <updated>1654523990818</updated>
     </task>
-    <task id="LOCAL-00002" summary="add example.java">
-      <created>1652700581773</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
+    <task id="LOCAL-00049" summary="Демостранция использования инструкции switch без break">
+      <created>1654526678312</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
       <option name="project" value="LOCAL" />
-      <updated>1652700581773</updated>
+      <updated>1654526678312</updated>
     </task>
-    <task id="LOCAL-00003" summary="Add new msg">
-      <created>1652700648004</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
+    <task id="LOCAL-00050" summary="Упражнение 3.1 Справочная система">
+      <created>1654537694002</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
       <option name="project" value="LOCAL" />
-      <updated>1652700648005</updated>
+      <updated>1654537694003</updated>
     </task>
-    <task id="LOCAL-00004" summary="Add new msg">
-      <created>1652701292336</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
+    <task id="LOCAL-00051" summary="Вывод квадратных корней чисел от 1 до 99, вместе с ошибкой округления">
+      <created>1654605731665</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
       <option name="project" value="LOCAL" />
-      <updated>1652701292336</updated>
+      <updated>1654605731666</updated>
     </task>
-    <task id="LOCAL-00005" summary="add idea to gitignore">
-      <created>1652701410520</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
+    <task id="LOCAL-00052" summary="Применение запятых в определении цикла for">
+      <created>1654608295418</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
       <option name="project" value="LOCAL" />
-      <updated>1652701410520</updated>
+      <updated>1654608295418</updated>
     </task>
-    <task id="LOCAL-00006" summary="add Example3">
-      <created>1652703363251</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
+    <task id="LOCAL-00053" summary="amountOfRepeats, type String codewars">
+      <created>1654620594137</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
       <option name="project" value="LOCAL" />
-      <updated>1652703363251</updated>
+      <updated>1654620594137</updated>
     </task>
-    <task id="LOCAL-00007" summary="Упражение 1.1">
-      <created>1652704940787</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
+    <task id="LOCAL-00054" summary="Пропуск отдельных составляющих в определении цикла for">
+      <created>1654698720289</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
       <option name="project" value="LOCAL" />
-      <updated>1652704940787</updated>
+      <updated>1654698720289</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00055" summary="Пропуск отдельных составляющих в определении цикла for второй вариант">
+      <created>1654698985390</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1654698985390</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Тело цикла for может быть пустым">
+      <created>1654700228454</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1654700228455</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Объявление переменной цикла в самом цикле for">
+      <created>1654701363178</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1654701363178</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Маленькая, но победа!!! summation">
+      <created>1654705865245</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1654705865245</updated>
+    </task>
+    <task id="LOCAL-00059" summary="kata 5, решение с if-else">
+      <created>1654713235166</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1654713235166</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Использование цикла while. англ. алфавит">
+      <created>1654789302284</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1654789302285</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Использование цикла while. англ. алфавит">
+      <created>1654789951063</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1654789951063</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Вычисление целых степеней числа 2. Цикл for, цикл while">
+      <created>1654790566320</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1654790566320</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Вычисление целых степеней числа 2. Цикл for, цикл while">
+      <created>1654790633238</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1654790633238</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Демонстрация цикла do-while">
+      <created>1654793656999</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1654793656999</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Игра в угадывании букв, четвертая версия">
+      <created>1654794412471</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1654794412471</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Упражнение 3.2 &#10;Расширенная справочная система, в которой для обработки результатов выбора из меню используется цикл do-while.">
+      <created>1654858706803</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1654858706804</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Чтение вводимых данных до тех пор, пока не будет получена буква q">
+      <created>1655045388123</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1655045388124</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Применение инструкции break во вложенных циклах">
+      <created>1655046081119</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1655046081119</updated>
+    </task>
+    <task id="LOCAL-00069" summary="Применение инструкции break с меткой">
+      <created>1655049069591</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1655049069591</updated>
+    </task>
+    <task id="LOCAL-00070" summary="Еще один пример применения инструкции break с меткой">
+      <created>1655050435954</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1655050435954</updated>
+    </task>
+    <task id="LOCAL-00071" summary="Zaur's Lesson 6, MethodOverloading: Перезагруженные методы имеют одинаковые имена и разный список параметров.">
+      <created>1655141863045</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1655141863046</updated>
+    </task>
+    <task id="LOCAL-00072" summary="Zaur's Lesson 6, MethodOverloading: Перезагруженные методы имеют одинаковые имена и разный список параметров, пример 2-ой">
+      <created>1655142967138</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1655142967138</updated>
+    </task>
+    <task id="LOCAL-00073" summary="Созданы три конструктора, конструкторы Overloaded, нельзя использовать один лист параметров для двух конструкторов.">
+      <created>1655145728805</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1655145728805</updated>
+    </task>
+    <task id="LOCAL-00074" summary="homework">
+      <created>1655202601085</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1655202601085</updated>
+    </task>
+    <task id="LOCAL-00075" summary="Расположение метки имеет большое значение.">
+      <created>1655315075205</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1655315075206</updated>
+    </task>
+    <task id="LOCAL-00076" summary="Применение инструкции continue">
+      <created>1655318100682</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1655318100682</updated>
+    </task>
+    <task id="LOCAL-00077" summary="Применение инструкции continue c меткой">
+      <created>1655318757537</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1655318757537</updated>
+    </task>
+    <task id="LOCAL-00078" summary="POBEDA!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! GGG!!!!!!!!!!!">
+      <created>1655324528323</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1655324528323</updated>
+    </task>
+    <task id="LOCAL-00079" summary="Завершенная справочная система по управляющим инструкциям Java, обрабатывающая многократные запросы">
+      <created>1655467724779</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1655467724780</updated>
+    </task>
+    <task id="LOCAL-00080" summary="Программа использующая цикл for для вывода чисел в геометрической прогрессии: 1, 2, 4, 8, 16, 32, 64">
+      <created>1655569412981</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1655569412981</updated>
+    </task>
+    <task id="LOCAL-00081" summary="Присвойте файлу с исходным кодом имя Vehicle.java, расчет дальности поездки с полным баком горючего.">
+      <created>1655732028541</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1655732028542</updated>
+    </task>
+    <task id="LOCAL-00082" summary="В этой программе создаются два объекта класса Vehicle">
+      <created>1655732764714</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1655732764714</updated>
+    </task>
+    <task id="LOCAL-00083" summary="HumanYearsCatYearsDogYears">
+      <created>1655738086849</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1655738086849</updated>
+    </task>
+    <task id="LOCAL-00084" summary="half lose / half win, ty bro!">
+      <created>1655839784591</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1655839784592</updated>
+    </task>
+    <task id="LOCAL-00085" summary="kata5 solved">
+      <created>1655926499153</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1655926499153</updated>
+    </task>
+    <task id="LOCAL-00086" summary="Возвращение логического значения true, если x содержит четное число. метод isEven()">
+      <created>1655988139252</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1655988139252</updated>
+    </task>
+    <task id="LOCAL-00087" summary="kata 13 solved">
+      <created>1656002712542</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1656002712543</updated>
+    </task>
+    <task id="LOCAL-00088" summary="Упражнение 4.1&#10;Преобразование в класс Help справочной системы из упражнения 3.3">
+      <created>1656065489821</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1656065489821</updated>
+    </task>
+    <task id="LOCAL-00089" summary="Clock shows h hours, m minutes and s seconds after midnight.&#10;&#10;Your task is to write a function which returns the time since midnight in milliseconds.&#10;&#10;Example:&#10;h = 0&#10;m = 1&#10;s = 1&#10;&#10;result = 61000">
+      <created>1656090563448</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1656090563449</updated>
+    </task>
+    <task id="LOCAL-00090" summary="dadYears sonYears kata">
+      <created>1656097449402</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1656097449402</updated>
+    </task>
+    <task id="LOCAL-00091" summary="class Pwr предназначенный для вычисления целочисленной степени заданного числа">
+      <created>1656173856760</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1656173856761</updated>
+    </task>
+    <task id="LOCAL-00092" summary="СЮДА! Ката 17 побеждена">
+      <created>1656180683824</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1656180683824</updated>
+    </task>
+    <task id="LOCAL-00093" summary="Демонстрация одномерного массива">
+      <created>1656341261046</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1656341261046</updated>
+    </task>
+    <task id="LOCAL-00094" summary="Поиск минимального и максимального значения в массиве.">
+      <created>1656341736094</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1656341736094</updated>
+    </task>
+    <task id="LOCAL-00095" summary="Намеренный выход за пределы массива">
+      <created>1656422199756</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1656422199756</updated>
+    </task>
+    <task id="LOCAL-00096" summary="Демонстрация алгоритма пузырьковой сортировки">
+      <created>1656423131652</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1656423131652</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,12 +662,42 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Greetings" />
-    <MESSAGE value="add example.java" />
-    <MESSAGE value="Add new msg" />
-    <MESSAGE value="add idea to gitignore" />
-    <MESSAGE value="add Example3" />
-    <MESSAGE value="Упражение 1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Упражение 1.1" />
+    <MESSAGE value="Zaur's Lesson 6, MethodOverloading: Перезагруженные методы имеют одинаковые имена и разный список параметров, пример 2-ой" />
+    <MESSAGE value="Созданы три конструктора, конструкторы Overloaded, нельзя использовать один лист параметров для двух конструкторов." />
+    <MESSAGE value="homework" />
+    <MESSAGE value="Расположение метки имеет большое значение." />
+    <MESSAGE value="Применение инструкции continue" />
+    <MESSAGE value="Применение инструкции continue c меткой" />
+    <MESSAGE value="POBEDA!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! GGG!!!!!!!!!!!" />
+    <MESSAGE value="Завершенная справочная система по управляющим инструкциям Java, обрабатывающая многократные запросы" />
+    <MESSAGE value="Программа использующая цикл for для вывода чисел в геометрической прогрессии: 1, 2, 4, 8, 16, 32, 64" />
+    <MESSAGE value="Присвойте файлу с исходным кодом имя Vehicle.java, расчет дальности поездки с полным баком горючего." />
+    <MESSAGE value="В этой программе создаются два объекта класса Vehicle" />
+    <MESSAGE value="HumanYearsCatYearsDogYears" />
+    <MESSAGE value="half lose / half win, ty bro!" />
+    <MESSAGE value="kata5 solved" />
+    <MESSAGE value="Возвращение логического значения true, если x содержит четное число. метод isEven()" />
+    <MESSAGE value="kata 13 solved" />
+    <MESSAGE value="Упражнение 4.1&#10;Преобразование в класс Help справочной системы из упражнения 3.3" />
+    <MESSAGE value="Clock shows h hours, m minutes and s seconds after midnight.&#10;&#10;Your task is to write a function which returns the time since midnight in milliseconds.&#10;&#10;Example:&#10;h = 0&#10;m = 1&#10;s = 1&#10;&#10;result = 61000" />
+    <MESSAGE value="dadYears sonYears kata" />
+    <MESSAGE value="class Pwr предназначенный для вычисления целочисленной степени заданного числа" />
+    <MESSAGE value="СЮДА! Ката 17 побеждена" />
+    <MESSAGE value="Демонстрация одномерного массива" />
+    <MESSAGE value="Поиск минимального и максимального значения в массиве." />
+    <MESSAGE value="Намеренный выход за пределы массива" />
+    <MESSAGE value="Демонстрация алгоритма пузырьковой сортировки" />
+    <option name="LAST_COMMIT_MESSAGE" value="Демонстрация алгоритма пузырьковой сортировки" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Others/JavaForBegginersLesson5.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
