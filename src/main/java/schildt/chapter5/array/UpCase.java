@@ -1,4 +1,4 @@
-package Others;
+package schildt.chapter5.array;
 
 public class UpCase {
     public static void main(String[] args) {
