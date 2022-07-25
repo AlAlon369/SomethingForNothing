@@ -6,11 +6,11 @@ public class MyClass {
         int gamma;              // тип доступа по умолчанию (по сути, public)
 
         // Методы доступа к переменной alpha. Члены класса могут обращаться к закрытым членам того же класса.
-        void setAlpha(int a) {
+        void setAlpha(int a) {      // открытый метод доступа
             alpha = a;
         }
 
-        int getAlpha() {
+        int getAlpha() {            // открытый метод доступа
             return alpha;
         }
     }
