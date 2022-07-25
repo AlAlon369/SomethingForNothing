@@ -18,12 +18,7 @@ public class SredneeArifmeticheskoeZnachenie {
 
         for (int i = 0; i < numbers.length; i++) {
             summa += numbers[i];
-
-            System.out.println("Среднее арифметическое значение: " + summa / numbers.length);
         }
-
-
-
-
+            System.out.println("Среднее арифметическое значение: " + summa / numbers.length);
     }
 }
