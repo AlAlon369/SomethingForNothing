@@ -16,5 +16,4 @@ public class AcessDemo {
         ob.gamma = 99;
 
     }
-
 }
