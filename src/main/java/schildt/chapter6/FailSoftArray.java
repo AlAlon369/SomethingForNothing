@@ -1,29 +1,29 @@
 package schildt.chapter6;
 
 public class FailSoftArray {
-    private int a[];       // ссылка на массив
-    private int errval;    // значение, возвращаемое в случае возникновения ошибки при выполнении метода get()
+    private int array[];       // ссылка на массив
+    private int errorValue;    // значение, возвращаемое в случае возникновения ошибки при выполнении метода get()
     public int length;     // открытая переменная length
 
     // Конструктору данного класса передается размер массива и значение, которое должен возвращать метод get()
     // при возникновении ошибки
-    public FailSoftArray (int size, int errv) {
-        a = new int [size];
-        errval = errv;
+    public FailSoftArray (int size, int errorValue) {
+        array = new int [size];
+        this.errorValue = errorValue;
         length = size;
     }
 
     // Возврат значения элемента массива с заданным индексом
     public int get (int index) {
-        if (indexOK(index)) return a[index];
-        return errval;
+        if (indexOK(index)) return array[index];
+        return errorValue;
     }
 
     // Установка значения элемента массива с заданным индексом
     // Если возникает ошибка, вернуть логическое значение false.
     public boolean put (int index, int val) {
         if (indexOK(index)) {
-            a[index] = val;
+            array[index] = val;
             return true;
         }
         return false;
