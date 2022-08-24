@@ -10,7 +10,6 @@ public class kata25 {
 
     // СОздать функцию которая будет вылавать персонализированное приветстввие, принимающая в себя два параметра
     // name и hello.
-    // Имя равно владельцу "Hello boss"
     // В другом случае "Hello guest"
 
     static String greet(String name, String owner) {
