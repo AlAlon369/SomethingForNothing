@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6dbf690-1ab4-4dd7-9318-91d7a7a4c39a" name="Changes" comment="kata25">
+    <list default="true" id="f6dbf690-1ab4-4dd7-9318-91d7a7a4c39a" name="Changes" comment="test2">
       <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/java48.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata47.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Codewars/Kata2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Codewars/Kata2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,6 +83,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -235,21 +234,7 @@
       <workItem from="1656339228151" duration="1976000" />
       <workItem from="1656417763827" duration="6477000" />
       <workItem from="1661241979452" duration="12904000" />
-      <workItem from="1661271051881" duration="24823000" />
-    </task>
-    <task id="LOCAL-00057" summary="Объявление переменной цикла в самом цикле for">
-      <created>1654701363178</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1654701363178</updated>
-    </task>
-    <task id="LOCAL-00058" summary="Маленькая, но победа!!! summation">
-      <created>1654705865245</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1654705865245</updated>
+      <workItem from="1661271051881" duration="25122000" />
     </task>
     <task id="LOCAL-00059" summary="kata 5, решение с if-else">
       <created>1654713235166</created>
@@ -580,7 +565,21 @@
       <option name="project" value="LOCAL" />
       <updated>1661364005805</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="test">
+      <created>1661366193454</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1661366193454</updated>
+    </task>
+    <task id="LOCAL-00107" summary="test2">
+      <created>1661366416249</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1661366416249</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -598,8 +597,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Программа использующая цикл for для вывода чисел в геометрической прогрессии: 1, 2, 4, 8, 16, 32, 64" />
-    <MESSAGE value="Присвойте файлу с исходным кодом имя Vehicle.java, расчет дальности поездки с полным баком горючего." />
     <MESSAGE value="В этой программе создаются два объекта класса Vehicle" />
     <MESSAGE value="HumanYearsCatYearsDogYears" />
     <MESSAGE value="half lose / half win, ty bro!" />
@@ -623,7 +620,9 @@
     <MESSAGE value="Демонстрация использования метода с переменным числом аргументов" />
     <MESSAGE value="kata38" />
     <MESSAGE value="kata25" />
-    <option name="LAST_COMMIT_MESSAGE" value="kata25" />
+    <MESSAGE value="test" />
+    <MESSAGE value="test2" />
+    <option name="LAST_COMMIT_MESSAGE" value="test2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
