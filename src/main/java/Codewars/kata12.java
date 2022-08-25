@@ -1,5 +1,5 @@
-/*package Others;
-
+package Others;
+/*
 public class kata12 {
     public static void main(String[] args) {
         System.out.println(MakeUpperCase("greetings"));
@@ -9,7 +9,7 @@ public class kata12 {
 
 
     public static String MakeUpperCase(String str) {
-        String s.
+        String
 
         return str;
     }
