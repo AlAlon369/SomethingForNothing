@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6dbf690-1ab4-4dd7-9318-91d7a7a4c39a" name="Changes" comment="test2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/java48.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata47.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Codewars/Kata2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Codewars/Kata2.java" afterDir="false" />
-    </list>
+    <list default="true" id="f6dbf690-1ab4-4dd7-9318-91d7a7a4c39a" name="Changes" comment="kata 50 completed" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,26 +41,15 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="PREVIOUS_COMMIT_AUTHORS">
-      <list>
-        <option value="AlAlon &lt;alalon211090@gmail.com&gt;" />
-      </list>
-    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="ff09fd679f2924974aef5d8f55400919b7cdadc7" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="e4586302-1c71-433a-b794-34619ae4b382" />
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="29FE8AyWObiXy70M0adk0a6BLzm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -87,7 +72,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "settings.editor.selected.configurable": "Errors"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -96,13 +81,13 @@
       <recent name="C:\Users\alone\IdeaProjects\SomethingForNothing\src\main\java\Others" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.VarArgs">
-    <configuration name="LocalClassDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="schildt.chapter6.LocalClassDemo2" />
+  <component name="RunManager" selected="Application.kata49">
+    <configuration name="Others.Bubble" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Others.Bubble" />
       <module name="SomethingForNothing.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="schildt.chapter6.*" />
+          <option name="PATTERN" value="schildt.chapter5.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VarArgs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="schildt.chapter6.VarArgs" />
+    <configuration name="Others.TwoD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Others.TwoD" />
       <module name="SomethingForNothing.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="schildt.chapter6.*" />
+          <option name="PATTERN" value="schildt.chapter5.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,8 +108,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="kata36" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Codewars.kata36" />
+    <configuration name="kata47" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Codewars.kata47" />
       <module name="SomethingForNothing.main" />
       <extension name="coverage">
         <pattern>
@@ -164,17 +149,17 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.VarArgs" />
-        <item itemvalue="Application.kata50" />
-        <item itemvalue="Application.kata36" />
         <item itemvalue="Application.kata49" />
-        <item itemvalue="Application.LocalClassDemo2" />
+        <item itemvalue="Application.kata50" />
+        <item itemvalue="Application.kata47" />
+        <item itemvalue="Application.Others.TwoD" />
+        <item itemvalue="Application.Others.Bubble" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
-    <configuration>C:\Users\Zori2\AppData\Roaming\Subversion</configuration>
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -233,8 +218,58 @@
       <workItem from="1656334584701" duration="715000" />
       <workItem from="1656339228151" duration="1976000" />
       <workItem from="1656417763827" duration="6477000" />
-      <workItem from="1661241979452" duration="12904000" />
-      <workItem from="1661271051881" duration="25122000" />
+      <workItem from="1661381175691" duration="1416000" />
+      <workItem from="1661418385740" duration="454000" />
+      <workItem from="1661418854288" duration="8191000" />
+    </task>
+    <task id="LOCAL-00052" summary="Применение запятых в определении цикла for">
+      <created>1654608295418</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1654608295418</updated>
+    </task>
+    <task id="LOCAL-00053" summary="amountOfRepeats, type String codewars">
+      <created>1654620594137</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1654620594137</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Пропуск отдельных составляющих в определении цикла for">
+      <created>1654698720289</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1654698720289</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Пропуск отдельных составляющих в определении цикла for второй вариант">
+      <created>1654698985390</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1654698985390</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Тело цикла for может быть пустым">
+      <created>1654700228454</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1654700228455</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Объявление переменной цикла в самом цикле for">
+      <created>1654701363178</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1654701363178</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Маленькая, но победа!!! summation">
+      <created>1654705865245</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1654705865245</updated>
     </task>
     <task id="LOCAL-00059" summary="kata 5, решение с if-else">
       <created>1654713235166</created>
@@ -509,77 +544,28 @@
       <option name="project" value="LOCAL" />
       <updated>1656425734465</updated>
     </task>
-    <task id="LOCAL-00098" summary="Приминение класса ShowBits2 в качестве локального">
-      <created>1661275973350</created>
+    <task id="LOCAL-00098" summary="kata 50 completed">
+      <created>1661420634102</created>
       <option name="number" value="00098" />
       <option name="presentableId" value="LOCAL-00098" />
       <option name="project" value="LOCAL" />
-      <updated>1661275973350</updated>
+      <updated>1661420634103</updated>
     </task>
-    <task id="LOCAL-00099" summary="Приминение класса ShowBits2 в качестве локального">
-      <created>1661276795021</created>
+    <task id="LOCAL-00099" summary="kata 50 completed">
+      <created>1661429320172</created>
       <option name="number" value="00099" />
       <option name="presentableId" value="LOCAL-00099" />
       <option name="project" value="LOCAL" />
-      <updated>1661276795021</updated>
+      <updated>1661429320172</updated>
     </task>
-    <task id="LOCAL-00100" summary="yo">
-      <created>1661346343144</created>
+    <task id="LOCAL-00100" summary="kata 50 completed">
+      <created>1661429409087</created>
       <option name="number" value="00100" />
       <option name="presentableId" value="LOCAL-00100" />
       <option name="project" value="LOCAL" />
-      <updated>1661346343144</updated>
+      <updated>1661429409088</updated>
     </task>
-    <task id="LOCAL-00101" summary="kata 49 completed">
-      <created>1661353713593</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1661353713593</updated>
-    </task>
-    <task id="LOCAL-00102" summary="kata 50 completed">
-      <created>1661360256978</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1661360256978</updated>
-    </task>
-    <task id="LOCAL-00103" summary="Демонстрация использования метода с переменным числом аргументов">
-      <created>1661363971148</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1661363971148</updated>
-    </task>
-    <task id="LOCAL-00104" summary="kata38">
-      <created>1661363993407</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1661363993407</updated>
-    </task>
-    <task id="LOCAL-00105" summary="kata25">
-      <created>1661364005805</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1661364005805</updated>
-    </task>
-    <task id="LOCAL-00106" summary="test">
-      <created>1661366193454</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
-      <option name="project" value="LOCAL" />
-      <updated>1661366193454</updated>
-    </task>
-    <task id="LOCAL-00107" summary="test2">
-      <created>1661366416249</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1661366416249</updated>
-    </task>
-    <option name="localTasksCounter" value="108" />
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -597,6 +583,14 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="homework" />
+    <MESSAGE value="Расположение метки имеет большое значение." />
+    <MESSAGE value="Применение инструкции continue" />
+    <MESSAGE value="Применение инструкции continue c меткой" />
+    <MESSAGE value="POBEDA!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! GGG!!!!!!!!!!!" />
+    <MESSAGE value="Завершенная справочная система по управляющим инструкциям Java, обрабатывающая многократные запросы" />
+    <MESSAGE value="Программа использующая цикл for для вывода чисел в геометрической прогрессии: 1, 2, 4, 8, 16, 32, 64" />
+    <MESSAGE value="Присвойте файлу с исходным кодом имя Vehicle.java, расчет дальности поездки с полным баком горючего." />
     <MESSAGE value="В этой программе создаются два объекта класса Vehicle" />
     <MESSAGE value="HumanYearsCatYearsDogYears" />
     <MESSAGE value="half lose / half win, ty bro!" />
@@ -613,16 +607,8 @@
     <MESSAGE value="Намеренный выход за пределы массива" />
     <MESSAGE value="Демонстрация алгоритма пузырьковой сортировки" />
     <MESSAGE value="поцаны пушат весь мусор" />
-    <MESSAGE value="Приминение класса ShowBits2 в качестве локального" />
-    <MESSAGE value="yo" />
-    <MESSAGE value="kata 49 completed" />
     <MESSAGE value="kata 50 completed" />
-    <MESSAGE value="Демонстрация использования метода с переменным числом аргументов" />
-    <MESSAGE value="kata38" />
-    <MESSAGE value="kata25" />
-    <MESSAGE value="test" />
-    <MESSAGE value="test2" />
-    <option name="LAST_COMMIT_MESSAGE" value="test2" />
+    <option name="LAST_COMMIT_MESSAGE" value="kata 50 completed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -631,16 +617,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/Others/JavaForBegginersLesson5.java</url>
           <line>18</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Codewars/kata45.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Codewars/kata49.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
