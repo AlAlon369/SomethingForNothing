@@ -16,7 +16,7 @@ public class Kata2 {
         }
         if (x >= -34) ;
         {
-            return +x;        // РЕШЕНИЕ: просто пиши return -number;
+            return +x;        // решение: просто пиши return -number;
         }
     }
 }

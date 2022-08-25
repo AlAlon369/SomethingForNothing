@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6dbf690-1ab4-4dd7-9318-91d7a7a4c39a" name="Changes" comment="поцаны пушат весь мусор">
+    <list default="true" id="f6dbf690-1ab4-4dd7-9318-91d7a7a4c39a" name="Changes" comment="kata 50 completed">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata47.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata49.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Codewars/Kata2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Codewars/Kata2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Codewars/kata12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Codewars/kata50.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata50.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +22,23 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SomethingForNothing" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -44,27 +67,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "Errors"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\alone\IdeaProjects\SomethingForNothing\src\main\java\Codewars" />
       <recent name="C:\Users\alone\IdeaProjects\SomethingForNothing\src\main\java\Others" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Others.TwoD">
+  <component name="RunManager" selected="Application.kata49">
     <configuration name="Others.Bubble" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Others.Bubble" />
       <module name="SomethingForNothing.main" />
@@ -91,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="schildt.chapter5.array.ArrayErr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="schildt.chapter5.array.ArrayErr" />
+    <configuration name="kata47" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Codewars.kata47" />
       <module name="SomethingForNothing.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="schildt.chapter5.array.*" />
+          <option name="PATTERN" value="Codewars.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="schildt.chapter5.array.MinMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="schildt.chapter5.array.MinMax" />
+    <configuration name="kata49" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Codewars.kata49" />
       <module name="SomethingForNothing.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="schildt.chapter5.array.*" />
+          <option name="PATTERN" value="Codewars.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="schildt.chapter5.array.MinMax2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="schildt.chapter5.array.MinMax2" />
+    <configuration name="kata50" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Codewars.kata50" />
       <module name="SomethingForNothing.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="schildt.chapter5.array.*" />
+          <option name="PATTERN" value="Codewars.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,15 +157,18 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.kata49" />
+        <item itemvalue="Application.kata50" />
+        <item itemvalue="Application.kata47" />
         <item itemvalue="Application.Others.TwoD" />
         <item itemvalue="Application.Others.Bubble" />
-        <item itemvalue="Application.schildt.chapter5.array.ArrayErr" />
-        <item itemvalue="Application.schildt.chapter5.array.MinMax2" />
-        <item itemvalue="Application.schildt.chapter5.array.MinMax" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="f6dbf690-1ab4-4dd7-9318-91d7a7a4c39a" name="Changes" comment="" />
@@ -198,13 +226,9 @@
       <workItem from="1656334584701" duration="715000" />
       <workItem from="1656339228151" duration="1976000" />
       <workItem from="1656417763827" duration="6477000" />
-    </task>
-    <task id="LOCAL-00049" summary="Демостранция использования инструкции switch без break">
-      <created>1654526678312</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1654526678312</updated>
+      <workItem from="1661381175691" duration="1416000" />
+      <workItem from="1661418385740" duration="454000" />
+      <workItem from="1661418854288" duration="7870000" />
     </task>
     <task id="LOCAL-00050" summary="Упражнение 3.1 Справочная система">
       <created>1654537694002</created>
@@ -542,7 +566,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656425734465</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="kata 50 completed">
+      <created>1661420634102</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1661420634103</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -560,7 +591,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Созданы три конструктора, конструкторы Overloaded, нельзя использовать один лист параметров для двух конструкторов." />
     <MESSAGE value="homework" />
     <MESSAGE value="Расположение метки имеет большое значение." />
     <MESSAGE value="Применение инструкции continue" />
@@ -585,7 +615,8 @@
     <MESSAGE value="Намеренный выход за пределы массива" />
     <MESSAGE value="Демонстрация алгоритма пузырьковой сортировки" />
     <MESSAGE value="поцаны пушат весь мусор" />
-    <option name="LAST_COMMIT_MESSAGE" value="поцаны пушат весь мусор" />
+    <MESSAGE value="kata 50 completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="kata 50 completed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
