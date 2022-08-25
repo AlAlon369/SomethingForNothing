@@ -17,7 +17,7 @@ public class kata50 {
             if (number % divider == 0) {
                 count++;
             }
-         }
+        }
         int[] arr = new int [count];
         for (int number : numbers) {
             if (number % divider == 0) {
