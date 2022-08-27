@@ -10,6 +10,6 @@ public class kata56 {
 
 
     static String removeExclamationMarks(String s) {
-        return s.replaceAll("!", "");
+        return s.replace("!", "");
     }
 }
