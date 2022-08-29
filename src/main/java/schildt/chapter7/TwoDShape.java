@@ -9,19 +9,19 @@ public class TwoDShape {
     }
 }
 
-   // Подкласс для представления треугольников.
-   // Производный от класса TwodShape
+// Подкласс для представления треугольников.
+// Производный от класса TwodShape
 class Triangle extends TwoDShape {
     String style;
 
     double area() {
         return width * height / 2;      // Из класса Triangle можно обращаться к членам класса TwoDShape так, как если бы это были его собственные члены.
-     }
+    }
 
-     void showStyle() {
-         System.out.println("Треугольник " + style);
-     }
-  }
+    void showStyle() {
+        System.out.println("Треугольник " + style);
+    }
+}
 
 class Shapes {
     public static void main(String[] args) {
@@ -58,7 +58,7 @@ class Rectangle extends TwoDShape {
         return false;
     }
 
-    double area () {
+    double area() {
         return width * height;
     }
 }
