@@ -50,3 +50,15 @@ class Shapes {
         System.out.println("Площадь - " + t2.area());
     }
 }
+
+// Подкласс для представления прямоугольников, производных от класса TwoDShape
+class Rectangle extends TwoDShape {
+    boolean isSquare() {
+        if (width == height) return true;
+        return false;
+    }
+
+    double area () {
+        return width * height;
+    }
+}
