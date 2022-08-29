@@ -11,7 +11,7 @@ import static java.awt.geom.Path2D.contains;
 
 public class kata41 {
     public static void main(String[] args) {
-        System.out.println((filterList((List.of(1, 2, "a", "b", "aasf", "1", "123", 231)))));
+        System.out.println(filterList(List.of(1, 2, "a", "b", "aasf", "1", "123", 231)));
     }
 
     // создаю лист объектов.
