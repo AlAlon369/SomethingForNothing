@@ -5,6 +5,11 @@ public class TwoDShape {
    private double height;       // теперь эти переменные объявлены как закрытые
 
     // Методы доступа к переменным экземпляра width и height
+    // Параметризированный конструктор
+    TwoDShape (double w, double h) {       // <-- Конструктор класса TwoDShape
+        width = w;
+        height = h;
+    }
 
     double getWidth() { return width; }
     double getHeight() { return height; }
@@ -24,8 +29,8 @@ class Triangle extends TwoDShape {
 
     // Конструктор
     Triangle (String s, double w, double h) {
-        setWidth(w);
-        setHeight(h);                             // Инициализация части объекта, соответствующей класса TwoDShape
+        super(w, h);     // Вызов конструктора суперкласса
+                         // Super - Использование оператора super() для вызова конструктора класса TwoDShape
 
         style = s;
     }
@@ -39,7 +44,7 @@ class Triangle extends TwoDShape {
     }
 }
 
-class Shapes3 {
+class Shapes4 {
     public static void main(String[] args) {
         Triangle t1 = new Triangle("закрашенный", 4.0, 4.0);
         Triangle t2 = new Triangle("Контурныйй", 8.0, 12.0);
@@ -60,15 +65,3 @@ class Shapes3 {
     }
 }
 
-// Подкласс для представления прямоугольников, производных от класса TwoDShape
-class Rectangle extends TwoDShape {
-    boolean isSquare() {
-        if (getWidth() == getHeight()) return true;
-        return false;
-    }
-
-    double area() {
-
-        return getWidth() * getHeight();
-    }
-}
