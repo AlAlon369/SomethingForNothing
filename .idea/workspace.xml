@@ -4,16 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6dbf690-1ab4-4dd7-9318-91d7a7a4c39a" name="Changes" comment="kata 2 completed">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata60.java" afterDir="false" />
+    <list default="true" id="f6dbf690-1ab4-4dd7-9318-91d7a7a4c39a" name="Changes" comment="kata69 solved">
       <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata61.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata67.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata68.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata69.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata70.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata71.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata72.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata73.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Others/TwoVehicles.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Others/Vehicle.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Others/VehicleDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/schildt/chapter7/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/schildt/chapter7/A.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,31 +72,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Zori2/IdeaProjects/my-todo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "Errors"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\alone\IdeaProjects\SomethingForNothing\src\main\java\Codewars" />
       <recent name="C:\Users\alone\IdeaProjects\SomethingForNothing\src\main\java\Others" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TruckDemo">
-    <configuration name="Shapes3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="schildt.chapter7.Shapes3" />
+  <component name="RunManager" selected="Application.OrderOfConstruction">
+    <configuration name="OrderOfConstruction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="schildt.chapter7.OrderOfConstruction" />
       <module name="SomethingForNothing.main" />
       <extension name="coverage">
         <pattern>
@@ -105,8 +109,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Truck$TruckDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="schildt.chapter7.Truck$TruckDemo" />
+    <configuration name="Shapes6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="schildt.chapter7.Shapes6" />
       <module name="SomethingForNothing.main" />
       <extension name="coverage">
         <pattern>
@@ -118,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TruckDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="schildt.chapter7.TruckDemo" />
+    <configuration name="kata71" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Codewars.kata71" />
       <module name="SomethingForNothing.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="schildt.chapter7.*" />
+          <option name="PATTERN" value="Codewars.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UseSuper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="schildt.chapter7.UseSuper" />
+    <configuration name="kata72" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Codewars.kata72" />
       <module name="SomethingForNothing.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="schildt.chapter7.*" />
+          <option name="PATTERN" value="Codewars.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,8 +148,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="kata69" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Codewars.kata69" />
+    <configuration name="kata73" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Codewars.kata73" />
       <module name="SomethingForNothing.main" />
       <extension name="coverage">
         <pattern>
@@ -159,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TruckDemo" />
-        <item itemvalue="Application.Truck$TruckDemo" />
-        <item itemvalue="Application.UseSuper" />
-        <item itemvalue="Application.Shapes3" />
-        <item itemvalue="Application.kata69" />
+        <item itemvalue="Application.OrderOfConstruction" />
+        <item itemvalue="Application.Shapes6" />
+        <item itemvalue="Application.kata73" />
+        <item itemvalue="Application.kata72" />
+        <item itemvalue="Application.kata71" />
       </list>
     </recent_temporary>
   </component>
@@ -241,35 +245,9 @@
       <workItem from="1661936571413" duration="17033000" />
       <workItem from="1662023076453" duration="18803000" />
       <workItem from="1662042964217" duration="211000" />
-      <workItem from="1662120128553" duration="17452000" />
-    </task>
-    <task id="LOCAL-00082" summary="В этой программе создаются два объекта класса Vehicle">
-      <created>1655732764714</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1655732764714</updated>
-    </task>
-    <task id="LOCAL-00083" summary="HumanYearsCatYearsDogYears">
-      <created>1655738086849</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1655738086849</updated>
-    </task>
-    <task id="LOCAL-00084" summary="half lose / half win, ty bro!">
-      <created>1655839784591</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1655839784592</updated>
-    </task>
-    <task id="LOCAL-00085" summary="kata5 solved">
-      <created>1655926499153</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1655926499153</updated>
+      <workItem from="1662120128553" duration="17738000" />
+      <workItem from="1662195699494" duration="6254000" />
+      <workItem from="1662206470552" duration="9228000" />
     </task>
     <task id="LOCAL-00086" summary="Возвращение логического значения true, если x содержит четное число. метод isEven()">
       <created>1655988139252</created>
@@ -586,7 +564,35 @@
       <option name="project" value="LOCAL" />
       <updated>1662139259486</updated>
     </task>
-    <option name="localTasksCounter" value="131" />
+    <task id="LOCAL-00131" summary="push">
+      <created>1662139299587</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1662139299587</updated>
+    </task>
+    <task id="LOCAL-00132" summary="Многоуровневая иерархия">
+      <created>1662216082158</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1662216082160</updated>
+    </task>
+    <task id="LOCAL-00133" summary="kata80 solved">
+      <created>1662216098565</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1662216098565</updated>
+    </task>
+    <task id="LOCAL-00134" summary="kata69 solved">
+      <created>1662216108973</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1662216108973</updated>
+    </task>
+    <option name="localTasksCounter" value="135" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -604,10 +610,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="kata 51 completed" />
-    <MESSAGE value="kata 53 completed&#10;note [b - a + 1] array size" />
-    <MESSAGE value="kata56 completed" />
-    <MESSAGE value="kata52 completed" />
     <MESSAGE value="kata58 completed" />
     <MESSAGE value="Перегрузка метода с переменным числом аргументов и неоднозначность в выборе перегруженной версии, программа содержит ошибку, и поэтому она не будет компилироваться." />
     <MESSAGE value="Простая иерархия классов&#10;Класс, описывающий двумерные объекты." />
@@ -629,7 +631,11 @@
     <MESSAGE value="Использование ключевого слова super, для предотвращения сокрытия имен" />
     <MESSAGE value="Упражнение 7.1 Расширение класса Vehicle" />
     <MESSAGE value="kata 2 completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="kata 2 completed" />
+    <MESSAGE value="push" />
+    <MESSAGE value="Многоуровневая иерархия" />
+    <MESSAGE value="kata80 solved" />
+    <MESSAGE value="kata69 solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="kata69 solved" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -646,5 +652,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="GradleRunConfiguration">
+        <watch expression="sb" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
