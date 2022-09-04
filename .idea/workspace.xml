@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6dbf690-1ab4-4dd7-9318-91d7a7a4c39a" name="Changes" comment="kata69 solved">
+    <list default="true" id="f6dbf690-1ab4-4dd7-9318-91d7a7a4c39a" name="Changes" comment="Демостранция очередности вызова конструкторов">
       <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata61.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata67.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata68.java" afterDir="false" />
@@ -16,7 +16,6 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/Others/TwoVehicles.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Others/Vehicle.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Others/VehicleDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/schildt/chapter7/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/schildt/chapter7/A.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,23 +71,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Zori2/IdeaProjects/my-todo",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "Errors"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Zori2/IdeaProjects/my-todo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\alone\IdeaProjects\SomethingForNothing\src\main\java\Codewars" />
@@ -247,21 +246,9 @@
       <workItem from="1662042964217" duration="211000" />
       <workItem from="1662120128553" duration="17738000" />
       <workItem from="1662195699494" duration="6254000" />
-      <workItem from="1662206470552" duration="9228000" />
-    </task>
-    <task id="LOCAL-00086" summary="Возвращение логического значения true, если x содержит четное число. метод isEven()">
-      <created>1655988139252</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1655988139252</updated>
-    </task>
-    <task id="LOCAL-00087" summary="kata 13 solved">
-      <created>1656002712542</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1656002712543</updated>
+      <workItem from="1662206470552" duration="10108000" />
+      <workItem from="1662244281840" duration="1213000" />
+      <workItem from="1662248620445" duration="54000" />
     </task>
     <task id="LOCAL-00088" summary="Упражнение 4.1&#10;Преобразование в класс Help справочной системы из упражнения 3.3">
       <created>1656065489821</created>
@@ -592,7 +579,21 @@
       <option name="project" value="LOCAL" />
       <updated>1662216108973</updated>
     </task>
-    <option name="localTasksCounter" value="135" />
+    <task id="LOCAL-00135" summary="push">
+      <created>1662216636672</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1662216636672</updated>
+    </task>
+    <task id="LOCAL-00136" summary="Демостранция очередности вызова конструкторов">
+      <created>1662216661958</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1662216661958</updated>
+    </task>
+    <option name="localTasksCounter" value="137" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -610,7 +611,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="kata58 completed" />
     <MESSAGE value="Перегрузка метода с переменным числом аргументов и неоднозначность в выборе перегруженной версии, программа содержит ошибку, и поэтому она не будет компилироваться." />
     <MESSAGE value="Простая иерархия классов&#10;Класс, описывающий двумерные объекты." />
     <MESSAGE value="Подкласс для представления прямоугольников, производный от класса TwoDShape" />
@@ -631,11 +631,12 @@
     <MESSAGE value="Использование ключевого слова super, для предотвращения сокрытия имен" />
     <MESSAGE value="Упражнение 7.1 Расширение класса Vehicle" />
     <MESSAGE value="kata 2 completed" />
-    <MESSAGE value="push" />
     <MESSAGE value="Многоуровневая иерархия" />
     <MESSAGE value="kata80 solved" />
     <MESSAGE value="kata69 solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="kata69 solved" />
+    <MESSAGE value="push" />
+    <MESSAGE value="Демостранция очередности вызова конструкторов" />
+    <option name="LAST_COMMIT_MESSAGE" value="Демостранция очередности вызова конструкторов" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
