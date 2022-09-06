@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6dbf690-1ab4-4dd7-9318-91d7a7a4c39a" name="Changes" comment="Демостранция очередности вызова конструкторов">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata61.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata67.java" afterDir="false" />
+    <list default="true" id="f6dbf690-1ab4-4dd7-9318-91d7a7a4c39a" name="Changes" comment="kata 68 solved">
       <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata68.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata70.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata71.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata72.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata73.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata74.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata75.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Others/TwoVehicles.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Others/Vehicle.java" beforeDir="false" />
@@ -94,7 +94,7 @@
       <recent name="C:\Users\alone\IdeaProjects\SomethingForNothing\src\main\java\Others" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OrderOfConstruction">
+  <component name="RunManager" selected="Application.kata75">
     <configuration name="OrderOfConstruction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="schildt.chapter7.OrderOfConstruction" />
       <module name="SomethingForNothing.main" />
@@ -121,8 +121,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="kata71" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Codewars.kata71" />
+    <configuration name="SuperSubRef" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="schildt.chapter7.SuperSubRef" />
+      <module name="SomethingForNothing.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="schildt.chapter7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="kata74" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Codewars.kata74" />
       <module name="SomethingForNothing.main" />
       <extension name="coverage">
         <pattern>
@@ -134,21 +147,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="kata72" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Codewars.kata72" />
-      <module name="SomethingForNothing.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Codewars.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="kata73" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Codewars.kata73" />
+    <configuration name="kata75" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Codewars.kata75" />
       <module name="SomethingForNothing.main" />
       <extension name="coverage">
         <pattern>
@@ -162,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.kata75" />
+        <item itemvalue="Application.SuperSubRef" />
+        <item itemvalue="Application.kata74" />
         <item itemvalue="Application.OrderOfConstruction" />
         <item itemvalue="Application.Shapes6" />
-        <item itemvalue="Application.kata73" />
-        <item itemvalue="Application.kata72" />
-        <item itemvalue="Application.kata71" />
       </list>
     </recent_temporary>
   </component>
@@ -249,48 +249,10 @@
       <workItem from="1662206470552" duration="10108000" />
       <workItem from="1662244281840" duration="1213000" />
       <workItem from="1662248620445" duration="54000" />
-    </task>
-    <task id="LOCAL-00088" summary="Упражнение 4.1&#10;Преобразование в класс Help справочной системы из упражнения 3.3">
-      <created>1656065489821</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1656065489821</updated>
-    </task>
-    <task id="LOCAL-00089" summary="Clock shows h hours, m minutes and s seconds after midnight.&#10;&#10;Your task is to write a function which returns the time since midnight in milliseconds.&#10;&#10;Example:&#10;h = 0&#10;m = 1&#10;s = 1&#10;&#10;result = 61000">
-      <created>1656090563448</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1656090563449</updated>
-    </task>
-    <task id="LOCAL-00090" summary="dadYears sonYears kata">
-      <created>1656097449402</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1656097449402</updated>
-    </task>
-    <task id="LOCAL-00091" summary="class Pwr предназначенный для вычисления целочисленной степени заданного числа">
-      <created>1656173856760</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1656173856761</updated>
-    </task>
-    <task id="LOCAL-00092" summary="СЮДА! Ката 17 побеждена">
-      <created>1656180683824</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1656180683824</updated>
-    </task>
-    <task id="LOCAL-00093" summary="Демонстрация одномерного массива">
-      <created>1656341261046</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1656341261046</updated>
+      <workItem from="1662321419040" duration="652000" />
+      <workItem from="1662379260684" duration="9620000" />
+      <workItem from="1662454949881" duration="10549000" />
+      <workItem from="1662494147092" duration="615000" />
     </task>
     <task id="LOCAL-00094" summary="Поиск минимального и максимального значения в массиве.">
       <created>1656341736094</created>
@@ -593,7 +555,49 @@
       <option name="project" value="LOCAL" />
       <updated>1662216661958</updated>
     </task>
-    <option name="localTasksCounter" value="137" />
+    <task id="LOCAL-00137" summary="kata 61 solved">
+      <created>1662321439616</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1662321439617</updated>
+    </task>
+    <task id="LOCAL-00138" summary="push">
+      <created>1662321453940</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1662321453940</updated>
+    </task>
+    <task id="LOCAL-00139" summary="kata 67 solved">
+      <created>1662321467930</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1662321467930</updated>
+    </task>
+    <task id="LOCAL-00140" summary="Обращение к объекту подкласса по ссылочной перемменной суперкласса">
+      <created>1662396338295</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1662396338296</updated>
+    </task>
+    <task id="LOCAL-00141" summary="Этот код не пройдет компиляцию, поскольку переменные x и y разных типов.">
+      <created>1662396631965</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1662396631965</updated>
+    </task>
+    <task id="LOCAL-00142" summary="kata 68 solved">
+      <created>1662496141314</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1662496141315</updated>
+    </task>
+    <option name="localTasksCounter" value="143" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -611,11 +615,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Перегрузка метода с переменным числом аргументов и неоднозначность в выборе перегруженной версии, программа содержит ошибку, и поэтому она не будет компилироваться." />
-    <MESSAGE value="Простая иерархия классов&#10;Класс, описывающий двумерные объекты." />
-    <MESSAGE value="Подкласс для представления прямоугольников, производный от класса TwoDShape" />
-    <MESSAGE value="kata 63 completed" />
-    <MESSAGE value="kata 64 completed" />
     <MESSAGE value="+ Rectangle extends TwoDShape" />
     <MESSAGE value="kata 41 completed" />
     <MESSAGE value="varArgs4" />
@@ -634,9 +633,14 @@
     <MESSAGE value="Многоуровневая иерархия" />
     <MESSAGE value="kata80 solved" />
     <MESSAGE value="kata69 solved" />
-    <MESSAGE value="push" />
     <MESSAGE value="Демостранция очередности вызова конструкторов" />
-    <option name="LAST_COMMIT_MESSAGE" value="Демостранция очередности вызова конструкторов" />
+    <MESSAGE value="kata 61 solved" />
+    <MESSAGE value="push" />
+    <MESSAGE value="kata 67 solved" />
+    <MESSAGE value="Обращение к объекту подкласса по ссылочной перемменной суперкласса" />
+    <MESSAGE value="Этот код не пройдет компиляцию, поскольку переменные x и y разных типов." />
+    <MESSAGE value="kata 68 solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="kata 68 solved" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
