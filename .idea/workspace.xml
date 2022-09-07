@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6dbf690-1ab4-4dd7-9318-91d7a7a4c39a" name="Changes" comment="kata 68 solved">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata68.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata70.java" afterDir="false" />
+    <list default="true" id="f6dbf690-1ab4-4dd7-9318-91d7a7a4c39a" name="Changes" comment="push">
       <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata71.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata72.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata73.java" afterDir="false" />
@@ -16,6 +14,7 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/Others/TwoVehicles.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Others/Vehicle.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Others/VehicleDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/schildt/chapter7/TwoDShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/schildt/chapter7/TwoDShape.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,8 +107,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Shapes6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="schildt.chapter7.Shapes6" />
+    <configuration name="Shapes7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="schildt.chapter7.Shapes7" />
       <module name="SomethingForNothing.main" />
       <extension name="coverage">
         <pattern>
@@ -162,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Shapes7" />
         <item itemvalue="Application.kata75" />
         <item itemvalue="Application.SuperSubRef" />
         <item itemvalue="Application.kata74" />
         <item itemvalue="Application.OrderOfConstruction" />
-        <item itemvalue="Application.Shapes6" />
       </list>
     </recent_temporary>
   </component>
@@ -252,28 +251,8 @@
       <workItem from="1662321419040" duration="652000" />
       <workItem from="1662379260684" duration="9620000" />
       <workItem from="1662454949881" duration="10549000" />
-      <workItem from="1662494147092" duration="615000" />
-    </task>
-    <task id="LOCAL-00094" summary="Поиск минимального и максимального значения в массиве.">
-      <created>1656341736094</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1656341736094</updated>
-    </task>
-    <task id="LOCAL-00095" summary="Намеренный выход за пределы массива">
-      <created>1656422199756</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1656422199756</updated>
-    </task>
-    <task id="LOCAL-00096" summary="Демонстрация алгоритма пузырьковой сортировки">
-      <created>1656423131652</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1656423131652</updated>
+      <workItem from="1662494147092" duration="2473000" />
+      <workItem from="1662541627976" duration="6172000" />
     </task>
     <task id="LOCAL-00097" summary="поцаны пушат весь мусор">
       <created>1656425734465</created>
@@ -597,7 +576,28 @@
       <option name="project" value="LOCAL" />
       <updated>1662496141315</updated>
     </task>
-    <option name="localTasksCounter" value="143" />
+    <task id="LOCAL-00143" summary="push">
+      <created>1662496162764</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1662496162764</updated>
+    </task>
+    <task id="LOCAL-00144" summary="kata 70 solved">
+      <created>1662496182515</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1662496182515</updated>
+    </task>
+    <task id="LOCAL-00145" summary="push">
+      <created>1662496195406</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1662496195406</updated>
+    </task>
+    <option name="localTasksCounter" value="146" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -615,7 +615,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="+ Rectangle extends TwoDShape" />
     <MESSAGE value="kata 41 completed" />
     <MESSAGE value="varArgs4" />
     <MESSAGE value="Вопросы для самопроверки, 6 глава, задание 6" />
@@ -635,12 +634,13 @@
     <MESSAGE value="kata69 solved" />
     <MESSAGE value="Демостранция очередности вызова конструкторов" />
     <MESSAGE value="kata 61 solved" />
-    <MESSAGE value="push" />
     <MESSAGE value="kata 67 solved" />
     <MESSAGE value="Обращение к объекту подкласса по ссылочной перемменной суперкласса" />
     <MESSAGE value="Этот код не пройдет компиляцию, поскольку переменные x и y разных типов." />
     <MESSAGE value="kata 68 solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="kata 68 solved" />
+    <MESSAGE value="kata 70 solved" />
+    <MESSAGE value="push" />
+    <option name="LAST_COMMIT_MESSAGE" value="push" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -654,6 +654,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Codewars/kata59.java</url>
           <line>21</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Codewars/kata75.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
