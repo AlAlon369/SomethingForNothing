@@ -1,5 +1,6 @@
 package schildt.chapter7;
 
+// commit конструирование объекта на основе другого объекта, передача ссылки Triangle конструктору TwoDShape
 public class TwoDShape {
    private double width;        // теперь эти переменные объявлены как закрытые
    private double height;       // теперь эти переменные объявлены как закрытые
@@ -18,6 +19,14 @@ public class TwoDShape {
     TwoDShape (double x) {
         width = height = x;
     }
+
+    // Создание одного объекта на основе другого
+    TwoDShape (TwoDShape ob) {
+        width = ob.width;
+        height = ob.height;
+    }
+
+    // Методы доступа к переменным экземпляра width и height
 
     double getWidth() { return width; }
     double getHeight() { return height; }
@@ -38,7 +47,7 @@ class Triangle extends TwoDShape {
     // Конструктор по умолчанию
     Triangle() {
         super();     // Вызов конструктора суперкласса по умолчанию
-        style = "nonme";
+        style = "none";
     }
     // конструктор
     Triangle (String s, double w, double h) {
@@ -53,6 +62,14 @@ class Triangle extends TwoDShape {
 
         style = "закрашенный";
     }
+
+    // Создание одного объекта на основе другого
+
+    Triangle (Triangle ob) {
+        super(ob);   // передача объекта конструктору класса TwoDShape
+        style = ob.style;
+    }
+
     double area() {
         return getWidth() * getHeight() / 2;      // Из класса Triangle можно обращаться к членам класса TwoDShape так, как если бы это были его собственные члены.
     }
@@ -80,16 +97,16 @@ class ColorTriangle extends Triangle {
     }
 }
 
-class Shapes6 {
+class Shapes7 {
     public static void main(String[] args) {
         ColorTriangle t1 = new ColorTriangle ("Синий", "контурный", 8.0, 12.0);
-        ColorTriangle t2 = new ColorTriangle ("Красный", "закрашенный", 2.0, 2.0);
+
+        // Создать копию объекта t1
+        Triangle t2 = new Triangle(t1);
 
         System.out.println("Информация о t1: ");
         t1.showStyle();
-
         t1.showDim();
-        t1.showColor();
         System.out.println("Площадь - " + t1.area());
 
         System.out.println();
@@ -97,7 +114,6 @@ class Shapes6 {
         System.out.println("Информация o t2: ");
         t2.showStyle();
         t2.showDim();
-        t2.showColor();
         System.out.println("Площадь - " + t2.area());
     }
 }
