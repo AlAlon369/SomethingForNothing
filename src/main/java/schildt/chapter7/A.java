@@ -1,27 +1,40 @@
 package schildt.chapter7;
 
-// Использование ключевого слова super
-// для предотвращения сокрытия имен
+// Переопределение метода
 
 public class A {
-    A() {
-        System.out.println("Конструктор А");
-    }
-}
-// Создание подкласса, расширяющего класса A
-class B extends A {
-    B() {
-        System.out.println("Конструктор B");
-    }
+    int i, j;
+
+    A(int a, int b) {
+        i = a;
+        j = b;
     }
 
-    class C extends B {
-        C() {
-            System.out.println("Конструктор С");
+    // Отображение переменных i и j
+    void show() {
+        System.out.println("i и j: " + i + " " + j);
     }
 }
-class OrderOfConstruction {
+
+class B extends A {
+    int k;
+
+    B(int a, int b, int c) {
+        super(a, b);
+        k = c;
+    }
+
+    // Отображение переменной k - переопределение метода show() в A
+    void show() {     // <---   Метод show() в B переопределяет метод show в А
+        System.out.println("k: " + k);
+    }
+}
+
+class Override {
     public static void main(String[] args) {
-        C c = new C();
+        B subOb = new B(1, 2, 3);
+
+        subOb.show();   // вызов метода show() из класса И
     }
 }
+
