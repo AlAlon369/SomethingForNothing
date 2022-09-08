@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6dbf690-1ab4-4dd7-9318-91d7a7a4c39a" name="Changes" comment="конструирование объекта на основе другого объекта, передача ссылки Triangle конструктору TwoDShape">
+    <list default="true" id="f6dbf690-1ab4-4dd7-9318-91d7a7a4c39a" name="Changes" comment="Методы с разными сигнатурами не переопределяются, а перегружаются.">
       <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata71.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata72.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata73.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata74.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata76.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Others/TwoVehicles.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Others/Vehicle.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Others/VehicleDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/schildt/chapter7/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/schildt/chapter7/A.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +91,7 @@
       <recent name="C:\Users\alone\IdeaProjects\SomethingForNothing\src\main\java\Others" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.kata76">
+  <component name="RunManager" selected="Application.Override">
     <configuration name="Override" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="schildt.chapter7.Override" />
       <module name="SomethingForNothing.main" />
@@ -257,27 +255,7 @@
       <workItem from="1662571363761" duration="1019000" />
       <workItem from="1662638929411" duration="9006000" />
       <workItem from="1662648015016" duration="12000" />
-    </task>
-    <task id="LOCAL-00100" summary="kata 50 completed">
-      <created>1661429409087</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1661429409088</updated>
-    </task>
-    <task id="LOCAL-00101" summary="test">
-      <created>1661429597026</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1661429597027</updated>
-    </task>
-    <task id="LOCAL-00102" summary="Использование массива аргументов переменной длинны">
-      <created>1661437296443</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1661437296443</updated>
+      <workItem from="1662656084996" duration="498000" />
     </task>
     <task id="LOCAL-00103" summary="Перегрузка метода с переменным числом аргументов">
       <created>1661505489066</created>
@@ -601,7 +579,28 @@
       <option name="project" value="LOCAL" />
       <updated>1662564248062</updated>
     </task>
-    <option name="localTasksCounter" value="149" />
+    <task id="LOCAL-00149" summary="// Переопределение метода">
+      <created>1662656220769</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1662656220769</updated>
+    </task>
+    <task id="LOCAL-00150" summary="push">
+      <created>1662656231058</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1662656231059</updated>
+    </task>
+    <task id="LOCAL-00151" summary="Методы с разными сигнатурами не переопределяются, а перегружаются.">
+      <created>1662656580641</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1662656580641</updated>
+    </task>
+    <option name="localTasksCounter" value="152" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -619,8 +618,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Вопросы для самопроверки, 6 глава, задание 6" />
-    <MESSAGE value="kata57 solved" />
     <MESSAGE value="kata59 solved" />
     <MESSAGE value="kata 66 solved" />
     <MESSAGE value="kata 65 solved" />
@@ -642,9 +639,11 @@
     <MESSAGE value="kata 68 solved" />
     <MESSAGE value="kata 70 solved" />
     <MESSAGE value="kata 75 solved" />
-    <MESSAGE value="push" />
     <MESSAGE value="конструирование объекта на основе другого объекта, передача ссылки Triangle конструктору TwoDShape" />
-    <option name="LAST_COMMIT_MESSAGE" value="конструирование объекта на основе другого объекта, передача ссылки Triangle конструктору TwoDShape" />
+    <MESSAGE value="// Переопределение метода" />
+    <MESSAGE value="push" />
+    <MESSAGE value="Методы с разными сигнатурами не переопределяются, а перегружаются." />
+    <option name="LAST_COMMIT_MESSAGE" value="Методы с разными сигнатурами не переопределяются, а перегружаются." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
