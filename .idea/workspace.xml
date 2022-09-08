@@ -4,17 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6dbf690-1ab4-4dd7-9318-91d7a7a4c39a" name="Changes" comment="push">
+    <list default="true" id="f6dbf690-1ab4-4dd7-9318-91d7a7a4c39a" name="Changes" comment="конструирование объекта на основе другого объекта, передача ссылки Triangle конструктору TwoDShape">
       <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata71.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata72.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata73.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata74.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata75.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata76.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Others/TwoVehicles.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Others/Vehicle.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Others/VehicleDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/schildt/chapter7/TwoDShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/schildt/chapter7/TwoDShape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/schildt/chapter7/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/schildt/chapter7/A.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,9 +93,9 @@
       <recent name="C:\Users\alone\IdeaProjects\SomethingForNothing\src\main\java\Others" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.kata75">
-    <configuration name="OrderOfConstruction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="schildt.chapter7.OrderOfConstruction" />
+  <component name="RunManager" selected="Application.kata76">
+    <configuration name="Override" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="schildt.chapter7.Override" />
       <module name="SomethingForNothing.main" />
       <extension name="coverage">
         <pattern>
@@ -133,19 +133,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="kata74" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Codewars.kata74" />
-      <module name="SomethingForNothing.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Codewars.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="kata75" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Codewars.kata75" />
       <module name="SomethingForNothing.main" />
@@ -159,13 +146,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="kata76" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Codewars.kata76" />
+      <module name="SomethingForNothing.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Codewars.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.kata76" />
+        <item itemvalue="Application.Override" />
         <item itemvalue="Application.Shapes7" />
         <item itemvalue="Application.kata75" />
         <item itemvalue="Application.SuperSubRef" />
-        <item itemvalue="Application.kata74" />
-        <item itemvalue="Application.OrderOfConstruction" />
       </list>
     </recent_temporary>
   </component>
@@ -253,27 +253,10 @@
       <workItem from="1662454949881" duration="10549000" />
       <workItem from="1662494147092" duration="2473000" />
       <workItem from="1662541627976" duration="6172000" />
-    </task>
-    <task id="LOCAL-00097" summary="поцаны пушат весь мусор">
-      <created>1656425734465</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1656425734465</updated>
-    </task>
-    <task id="LOCAL-00098" summary="kata 50 completed">
-      <created>1661420634102</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1661420634103</updated>
-    </task>
-    <task id="LOCAL-00099" summary="kata 50 completed">
-      <created>1661429320172</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1661429320172</updated>
+      <workItem from="1662564191414" duration="210000" />
+      <workItem from="1662571363761" duration="1019000" />
+      <workItem from="1662638929411" duration="9006000" />
+      <workItem from="1662648015016" duration="12000" />
     </task>
     <task id="LOCAL-00100" summary="kata 50 completed">
       <created>1661429409087</created>
@@ -597,7 +580,28 @@
       <option name="project" value="LOCAL" />
       <updated>1662496195406</updated>
     </task>
-    <option name="localTasksCounter" value="146" />
+    <task id="LOCAL-00146" summary="kata 75 solved">
+      <created>1662564210866</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1662564210866</updated>
+    </task>
+    <task id="LOCAL-00147" summary="push">
+      <created>1662564225319</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1662564225319</updated>
+    </task>
+    <task id="LOCAL-00148" summary="конструирование объекта на основе другого объекта, передача ссылки Triangle конструктору TwoDShape">
+      <created>1662564248062</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1662564248062</updated>
+    </task>
+    <option name="localTasksCounter" value="149" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -615,8 +619,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="kata 41 completed" />
-    <MESSAGE value="varArgs4" />
     <MESSAGE value="Вопросы для самопроверки, 6 глава, задание 6" />
     <MESSAGE value="kata57 solved" />
     <MESSAGE value="kata59 solved" />
@@ -639,8 +641,10 @@
     <MESSAGE value="Этот код не пройдет компиляцию, поскольку переменные x и y разных типов." />
     <MESSAGE value="kata 68 solved" />
     <MESSAGE value="kata 70 solved" />
+    <MESSAGE value="kata 75 solved" />
     <MESSAGE value="push" />
-    <option name="LAST_COMMIT_MESSAGE" value="push" />
+    <MESSAGE value="конструирование объекта на основе другого объекта, передача ссылки Triangle конструктору TwoDShape" />
+    <option name="LAST_COMMIT_MESSAGE" value="конструирование объекта на основе другого объекта, передача ссылки Triangle конструктору TwoDShape" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
