@@ -1,6 +1,5 @@
 package schildt.chapter7;
 
-// Переопределение метода
 
 public class A {
     int i, j;
@@ -24,9 +23,9 @@ class B extends A {
         k = c;
     }
 
-    // Отображение переменной k - переопределение метода show() в A
-    void show() {     // <---   Метод show() в B переопределяет метод show в А
-        System.out.println("k: " + k);
+    // Перегрузка метода show()
+    void show(String msg) {
+        System.out.println(msg + k);
     }
 }
 
@@ -34,7 +33,8 @@ class Override {
     public static void main(String[] args) {
         B subOb = new B(1, 2, 3);
 
-        subOb.show();   // вызов метода show() из класса И
+        subOb.show("k: ");   // вызов метода show() из класса B
+        subOb.show();   // вызов метода show() из класса Ф
     }
 }
 
