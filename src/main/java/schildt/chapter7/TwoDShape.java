@@ -2,28 +2,35 @@ package schildt.chapter7;
 
 // commit конструирование объекта на основе другого объекта, передача ссылки Triangle конструктору TwoDShape
 public class TwoDShape {
-   private double width;        // теперь эти переменные объявлены как закрытые
-   private double height;       // теперь эти переменные объявлены как закрытые
+   private double width;
+   private double height;
+   private String name;
 
-    // Методы доступа к переменным экземпляра width и height
-    // Параметризированный конструктор
-    TwoDShape (double w, double h) {       // <-- Конструктор класса TwoDShape
-        width = w;
-        height = h;
-    }
-    // Конструктор, заданный по умолчанию             // Использование метода super() для вызова разных форм конструктора TwoDShape()
+    // Конструктор по умолчанию
     TwoDShape() {
         width = height = 0.0;
+        name = "none";
     }
+
+
+    // Параметризированный конструктор
+    TwoDShape (double w, double h, String n) {       // <-- Конструктор класса TwoDShape
+        width = w;
+        height = h;
+        name = n;
+    }
+
     // Создание объекта с одинаковыми значениями переменных экземпляра width и height
-    TwoDShape (double x) {
+    TwoDShape (double x, String n) {
         width = height = x;
+        name = n;
     }
 
     // Создание одного объекта на основе другого
     TwoDShape (TwoDShape ob) {
         width = ob.width;
         height = ob.height;
+        name = ob.name;
     }
 
     // Методы доступа к переменным экземпляра width и height
@@ -33,9 +40,17 @@ public class TwoDShape {
     void setWidth (double w) { width = w; }
     void setHeight (double h) { height = h; }
 
-    void showDim() {
+    String getName() {
+        return name;
+    }
 
+    void showDim() {
         System.out.println("Ширина и высота - " + width + " и " + height);
+    }
+
+    double area() {   // Метод area(), определенный классом TwoDShape
+        System.out.println("Метод area() должен быть переопределен");
+        return 0.0;
     }
 }
 
@@ -46,76 +61,86 @@ class Triangle extends TwoDShape {
 
     // Конструктор по умолчанию
     Triangle() {
-        super();     // Вызов конструктора суперкласса по умолчанию
+        super();
         style = "none";
     }
-    // конструктор
+    // Конструктор класса Triangle
     Triangle (String s, double w, double h) {
-        super(w, h);     // Вызов конструктора суперкласса с двумя аргументами.
-
+        super(w, h, "треугольник");
         style = s;
     }
 
-    // Конструктор с одним аргументом
-    Triangle (double x) {
-        super(x);  // Вызов конструктора суперкласса с одним аргументом.
+    // Конструктор с одним аргументом для построения треугольника
 
+    Triangle (double x) {
+        super(x, "треугольник");   // вызов конструктора суперкласса
         style = "закрашенный";
     }
 
     // Создание одного объекта на основе другого
-
     Triangle (Triangle ob) {
-        super(ob);   // передача объекта конструктору класса TwoDShape
+        super(ob);   // Передача объекта конструктору класса TwoDShape
         style = ob.style;
     }
 
-    double area() {
-        return getWidth() * getHeight() / 2;      // Из класса Triangle можно обращаться к членам класса TwoDShape так, как если бы это были его собственные члены.
+    // Переопределение метода area() для класса Triangle
+    double area() {   // Переопределение метода area() для класса Triangle
+        return getWidth() * getHeight() / 2;
     }
 
     void showStyle() {
-
         System.out.println("Треугольник " + style);
     }
 }
 
-// Расширение класса Triangle
-class ColorTriangle extends Triangle {
-    private String color;
+   // Подкласс для представления прямоугольников, производный от класса TwoDShape
+   class Rectangle extends TwoDShape {
+    // конструктор по умолчанию
+       Rectangle() {
+           super();
+       }
+       // Конструктор класса Rectangle
+       Rectangle (double w, double h) {
+           super (w, h, "прямоугольник");   // вызов конструктора суперкласса
+       }
 
-    ColorTriangle(String c, String s, double w, double h) {
-        super (s, w, h);
+       // Создание квадрата
+       Rectangle (double x) {
+           super (x, "прямоугольник");   // вызов конструктора суперкласса
+       }
 
-        color = c;
-    }
+       // Создание одного объекта на основе другого
+       Rectangle (Rectangle ob) {
+           super(ob);   // передача объекта конструктору класса TwoDShape
+       }
 
-    String getColor() { return color; }
+       boolean isSquare() {
+           if (getWidth() == getHeight()) return true;
+           return false;
+       }
 
-    void showColor() {
-        System.out.println("Цвет - " + color);
-    }
-}
+       // Переопределение метода area() для класса Rectangle
+       double area() {     // <--   Переопределение метода area() для класса Reactangle
+           return getWidth() * getHeight();
+       }
+   }
 
-class Shapes7 {
-    public static void main(String[] args) {
-        ColorTriangle t1 = new ColorTriangle ("Синий", "контурный", 8.0, 12.0);
+   class DynShapes {
+       public static void main(String[] args) {
+           TwoDShape shapes[] = new TwoDShape[5];
 
-        // Создать копию объекта t1
-        Triangle t2 = new Triangle(t1);
+           shapes[0] = new Triangle ("контурный", 8.0, 12.0);
+           shapes[1] = new Rectangle(10);
+           shapes[2] = new Rectangle(10, 4);
+           shapes[3] = new Triangle(7.0);
 
-        System.out.println("Информация о t1: ");
-        t1.showStyle();
-        t1.showDim();
-        System.out.println("Площадь - " + t1.area());
+           shapes[4] = new TwoDShape(10, 20, "фигура");
 
-        System.out.println();
-
-        System.out.println("Информация o t2: ");
-        t2.showStyle();
-        t2.showDim();
-        System.out.println("Площадь - " + t2.area());
-    }
-}
-
+           for (int i = 0; i < shapes.length; i++) {
+               System.out.println("Объект - " + shapes[i].getName());
+               System.out.println("Площадь - " + shapes[i].area());
+               System.out.println();
+           }
+       }
+   }
 
