@@ -4,15 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6dbf690-1ab4-4dd7-9318-91d7a7a4c39a" name="Changes" comment="Методы с разными сигнатурами не переопределяются, а перегружаются.">
+    <list default="true" id="f6dbf690-1ab4-4dd7-9318-91d7a7a4c39a" name="Changes" comment="push">
       <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata71.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata72.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata73.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata74.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata76.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata77.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata78.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/schildt/chapter7/Sup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Others/TwoVehicles.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Others/Vehicle.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Others/VehicleDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/schildt/chapter7/TwoDShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/schildt/chapter7/TwoDShape.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,52 +96,39 @@
       <recent name="C:\Users\alone\IdeaProjects\SomethingForNothing\src\main\java\Others" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Override">
+  <component name="RunManager" selected="Application.DynShapes">
+    <configuration name="DynDispDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="schildt.chapter7.DynDispDemo" />
+      <module name="SomethingForNothing.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="schildt.chapter7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DynShapes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="schildt.chapter7.DynShapes" />
+      <module name="SomethingForNothing.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="schildt.chapter7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Override" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="schildt.chapter7.Override" />
       <module name="SomethingForNothing.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="schildt.chapter7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Shapes7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="schildt.chapter7.Shapes7" />
-      <module name="SomethingForNothing.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="schildt.chapter7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SuperSubRef" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="schildt.chapter7.SuperSubRef" />
-      <module name="SomethingForNothing.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="schildt.chapter7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="kata75" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Codewars.kata75" />
-      <module name="SomethingForNothing.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Codewars.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,13 +149,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="kata77" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Codewars.kata77" />
+      <module name="SomethingForNothing.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Codewars.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DynShapes" />
+        <item itemvalue="Application.kata77" />
+        <item itemvalue="Application.DynDispDemo" />
         <item itemvalue="Application.kata76" />
         <item itemvalue="Application.Override" />
-        <item itemvalue="Application.Shapes7" />
-        <item itemvalue="Application.kata75" />
-        <item itemvalue="Application.SuperSubRef" />
       </list>
     </recent_temporary>
   </component>
@@ -255,14 +260,10 @@
       <workItem from="1662571363761" duration="1019000" />
       <workItem from="1662638929411" duration="9006000" />
       <workItem from="1662648015016" duration="12000" />
-      <workItem from="1662656084996" duration="498000" />
-    </task>
-    <task id="LOCAL-00103" summary="Перегрузка метода с переменным числом аргументов">
-      <created>1661505489066</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1661505489066</updated>
+      <workItem from="1662656084996" duration="2087000" />
+      <workItem from="1662672675996" duration="2000" />
+      <workItem from="1662714323224" duration="6247000" />
+      <workItem from="1662741255618" duration="3139000" />
     </task>
     <task id="LOCAL-00104" summary="kata 51 completed">
       <created>1661505509036</created>
@@ -600,7 +601,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662656580641</updated>
     </task>
-    <option name="localTasksCounter" value="152" />
+    <task id="LOCAL-00152" summary="push">
+      <created>1662656654756</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1662656654756</updated>
+    </task>
+    <option name="localTasksCounter" value="153" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -641,9 +649,9 @@
     <MESSAGE value="kata 75 solved" />
     <MESSAGE value="конструирование объекта на основе другого объекта, передача ссылки Triangle конструктору TwoDShape" />
     <MESSAGE value="// Переопределение метода" />
-    <MESSAGE value="push" />
     <MESSAGE value="Методы с разными сигнатурами не переопределяются, а перегружаются." />
-    <option name="LAST_COMMIT_MESSAGE" value="Методы с разными сигнатурами не переопределяются, а перегружаются." />
+    <MESSAGE value="push" />
+    <option name="LAST_COMMIT_MESSAGE" value="push" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
