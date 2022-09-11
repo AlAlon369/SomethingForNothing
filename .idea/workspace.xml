@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6dbf690-1ab4-4dd7-9318-91d7a7a4c39a" name="Changes" comment="kata 71 solved">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata72.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata73.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata74.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata76.java" afterDir="false" />
+    <list default="true" id="f6dbf690-1ab4-4dd7-9318-91d7a7a4c39a" name="Changes" comment="kata 76 solved">
       <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata77.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata78.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata79.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata80.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Others/TwoVehicles.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Others/Vehicle.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Others/VehicleDemo.java" beforeDir="false" />
@@ -264,41 +259,7 @@
       <workItem from="1662714323224" duration="6247000" />
       <workItem from="1662741255618" duration="4072000" />
       <workItem from="1662800934558" duration="7859000" />
-    </task>
-    <task id="LOCAL-00108" summary="kata52 completed">
-      <created>1661619932498</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1661619932498</updated>
-    </task>
-    <task id="LOCAL-00109" summary="kata52 completed">
-      <created>1661619947064</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1661619947064</updated>
-    </task>
-    <task id="LOCAL-00110" summary="kata58 completed">
-      <created>1661684480203</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1661684480203</updated>
-    </task>
-    <task id="LOCAL-00111" summary="Перегрузка метода с переменным числом аргументов и неоднозначность в выборе перегруженной версии, программа содержит ошибку, и поэтому она не будет компилироваться.">
-      <created>1661684907761</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1661684907761</updated>
-    </task>
-    <task id="LOCAL-00112" summary="Простая иерархия классов&#10;Класс, описывающий двумерные объекты.">
-      <created>1661780836064</created>
-      <option name="number" value="00112" />
-      <option name="presentableId" value="LOCAL-00112" />
-      <option name="project" value="LOCAL" />
-      <updated>1661780836064</updated>
+      <workItem from="1662836880388" duration="80000" />
     </task>
     <task id="LOCAL-00113" summary="Подкласс для представления прямоугольников, производный от класса TwoDShape">
       <created>1661781252983</created>
@@ -608,7 +569,42 @@
       <option name="project" value="LOCAL" />
       <updated>1662745112418</updated>
     </task>
-    <option name="localTasksCounter" value="157" />
+    <task id="LOCAL-00157" summary="push">
+      <created>1662836893485</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1662836893486</updated>
+    </task>
+    <task id="LOCAL-00158" summary="kata 72 solved">
+      <created>1662836910146</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1662836910146</updated>
+    </task>
+    <task id="LOCAL-00159" summary="kata 73 solved">
+      <created>1662836918187</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1662836918188</updated>
+    </task>
+    <task id="LOCAL-00160" summary="kata 74 solved">
+      <created>1662836931875</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1662836931875</updated>
+    </task>
+    <task id="LOCAL-00161" summary="kata 76 solved">
+      <created>1662836950277</created>
+      <option name="number" value="00161" />
+      <option name="presentableId" value="LOCAL-00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1662836950277</updated>
+    </task>
+    <option name="localTasksCounter" value="162" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -626,10 +622,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="kata 62 solved" />
-    <MESSAGE value="TwoDShape modified" />
-    <MESSAGE value="Использование ключевого слова super" />
-    <MESSAGE value="Добовление дополнительных конструкторов в класс TwoDShape, используя метод super()" />
     <MESSAGE value="Использование ключевого слова super, для предотвращения сокрытия имен" />
     <MESSAGE value="Упражнение 7.1 Расширение класса Vehicle" />
     <MESSAGE value="kata 2 completed" />
@@ -647,11 +639,15 @@
     <MESSAGE value="конструирование объекта на основе другого объекта, передача ссылки Triangle конструктору TwoDShape" />
     <MESSAGE value="// Переопределение метода" />
     <MESSAGE value="Методы с разными сигнатурами не переопределяются, а перегружаются." />
-    <MESSAGE value="push" />
     <MESSAGE value="Использование динамической диспетчеризации методов" />
     <MESSAGE value="Демонстрация динамической диспетчеризации методов" />
     <MESSAGE value="kata 71 solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="kata 71 solved" />
+    <MESSAGE value="push" />
+    <MESSAGE value="kata 72 solved" />
+    <MESSAGE value="kata 73 solved" />
+    <MESSAGE value="kata 74 solved" />
+    <MESSAGE value="kata 76 solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="kata 76 solved" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
