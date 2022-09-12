@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6dbf690-1ab4-4dd7-9318-91d7a7a4c39a" name="Changes" comment="kata 76 solved">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata77.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata78.java" afterDir="false" />
+    <list default="true" id="f6dbf690-1ab4-4dd7-9318-91d7a7a4c39a" name="Changes" comment="kata 78 solved">
       <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata79.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata80.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata81.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata82.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Others/TwoVehicles.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Others/Vehicle.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Others/VehicleDemo.java" beforeDir="false" />
@@ -260,27 +261,8 @@
       <workItem from="1662741255618" duration="4072000" />
       <workItem from="1662800934558" duration="7859000" />
       <workItem from="1662836880388" duration="80000" />
-    </task>
-    <task id="LOCAL-00113" summary="Подкласс для представления прямоугольников, производный от класса TwoDShape">
-      <created>1661781252983</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1661781252983</updated>
-    </task>
-    <task id="LOCAL-00114" summary="kata 63 completed">
-      <created>1661781756223</created>
-      <option name="number" value="00114" />
-      <option name="presentableId" value="LOCAL-00114" />
-      <option name="project" value="LOCAL" />
-      <updated>1661781756223</updated>
-    </task>
-    <task id="LOCAL-00115" summary="kata 64 completed">
-      <created>1661781768302</created>
-      <option name="number" value="00115" />
-      <option name="presentableId" value="LOCAL-00115" />
-      <option name="project" value="LOCAL" />
-      <updated>1661781768303</updated>
+      <workItem from="1662914185095" duration="646000" />
+      <workItem from="1662984345432" duration="1558000" />
     </task>
     <task id="LOCAL-00116" summary="+ Rectangle extends TwoDShape">
       <created>1661781821067</created>
@@ -604,7 +586,28 @@
       <option name="project" value="LOCAL" />
       <updated>1662836950277</updated>
     </task>
-    <option name="localTasksCounter" value="162" />
+    <task id="LOCAL-00162" summary="push">
+      <created>1662914198680</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1662914198681</updated>
+    </task>
+    <task id="LOCAL-00163" summary="kata 77 solved">
+      <created>1662914224019</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1662914224020</updated>
+    </task>
+    <task id="LOCAL-00164" summary="kata 78 solved">
+      <created>1662914233567</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1662914233567</updated>
+    </task>
+    <option name="localTasksCounter" value="165" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -622,8 +625,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Использование ключевого слова super, для предотвращения сокрытия имен" />
-    <MESSAGE value="Упражнение 7.1 Расширение класса Vehicle" />
     <MESSAGE value="kata 2 completed" />
     <MESSAGE value="Многоуровневая иерархия" />
     <MESSAGE value="kata80 solved" />
@@ -642,12 +643,14 @@
     <MESSAGE value="Использование динамической диспетчеризации методов" />
     <MESSAGE value="Демонстрация динамической диспетчеризации методов" />
     <MESSAGE value="kata 71 solved" />
-    <MESSAGE value="push" />
     <MESSAGE value="kata 72 solved" />
     <MESSAGE value="kata 73 solved" />
     <MESSAGE value="kata 74 solved" />
     <MESSAGE value="kata 76 solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="kata 76 solved" />
+    <MESSAGE value="push" />
+    <MESSAGE value="kata 77 solved" />
+    <MESSAGE value="kata 78 solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="kata 78 solved" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
