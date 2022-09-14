@@ -1,30 +1,32 @@
 package schildt.chapter6;
 
-  // Возврат объекта типа String
-
+// Возврат объекта типа String
  class ErrorMsg {
-     String msgs[] = {
-             "Ошибка вывода",
-             "Ошибка ввода",
-             "отсутствует место на диске",
-             "Выход индекса за границы диапазона"
-     };
+     // Код ошибок
+     final int OUTERR = 0;
+     final int INNER = 1;
+     final int DISKERR = 2;
+     final int INDEXERR = 3;
 
-     // Возврат сообщения об ошибке
-     String getErrorMsg(int i) {          // Возврат объекта типа String
-         if (i >= 0 & i < msgs.length)
-         return msgs[i];
-         else
-             return "Несуществующий код ошибки";
+    String msgs[] = {
+            "Ошибка вывода",
+
+            "Ошибка ввода",
+            "Отсутвствует место на диске",
+            "Выход индекса за границы диапазона"
+    };
+
+    // Возврат сообщения об ошибке
+     String getErrorMsg (int i) {
+         if (i >= 0 & i < msgs.length) return msgs[i];
+         else return "Несуществующий код ошибки";
      }
-}
+ }
 
-class ErrMsg {
-    public static void main(String[] args) {
+ class FinalD {
+     public static void main(String[] args) {
         ErrorMsg err = new ErrorMsg();
-
-        System.out.println(err.getErrorMsg(2));
-        System.out.println(err.getErrorMsg(18));
-
-    }
-}
+         System.out.println(err.getErrorMsg(err.OUTERR));
+         System.out.println(err.getErrorMsg(err.DISKERR));
+     }
+ }
