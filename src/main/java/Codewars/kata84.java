@@ -17,11 +17,6 @@ public class kata84 {
     public static boolean isTriangle(int a, int b, int c) {
         if (a < b & a < c & b == c || a + b > c & a + c > b & c + b > a) {
             return true;
-        /*} else if(a == b || c == a || c == b) {
-            return true;
-        } else if (a != b && b != c && c != a) {
-            return true;
-        }*/
         }
         return false;
     }
