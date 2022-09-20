@@ -32,48 +32,26 @@ public class kata90 {
     }
 
     public static String declareWinner(Fighter fighter1, Fighter fighter2, String firstAttacker) {
-        String champion = "";
-        // int count = 0;
-        if (fighter1.name.equals(firstAttacker)) {
-            while (fighter1.health > 0) {
+        while (true) {
+            if (fighter1.name.equals(firstAttacker)) {
                 fighter2.health -= fighter1.damagePerAttack;
-              //  fighter1.health -= fighter2.damagePerAttack;
-                //  continue;
-                break;
-            }
-        }
-        if (fighter2.name.equals(firstAttacker)) {
-            while (fighter2.health > 0) {
-                fighter2.health -= fighter1.damagePerAttack;
-                break;
-            }
-        }
-        if (fighter1.health > 0) {
-             champion += (fighter1.name);
-        } else {
-            champion += (fighter2.name);
-        }
-        return champion;
-    }
-}
-        /*StringBuilder sb = new StringBuilder();
-        boolean fight = true;
-        //  String winner = "";
-        //   do {
-        // while (fight) {
-        if (fighter1.name.equals(firstAttacker)) {
-            fighter2.health -= fighter1.damagePerAttack;
-            if (fighter2.health <= 0) {
-                sb.append(fighter1.name);
-                return fighter1.name;
+                if (fighter2.health <= 0) {
+                    return fighter1.name;
+                }
+                fighter1.health -= fighter2.damagePerAttack;
+                if (fighter1.health <= 0) {
+                    return fighter2.name;
+                }
             } else {
                 fighter1.health -= fighter2.damagePerAttack;
                 if (fighter1.health <= 0) {
-                    sb.append(fighter2.name);
-                    return sb.toString();
+                    return fighter2.name;
+                }
+                fighter2.health -= fighter1.damagePerAttack;
+                if (fighter2.health <= 0) {
+                    return fighter1.name;
                 }
             }
-        }*/
-     /*   return null;
+        }
     }
-}*/
+}
