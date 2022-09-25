@@ -1,17 +1,18 @@
 package schildt.bookpack;
 
-public class Book {
-    private String title;
-    private String author;
-    private int pubDate;
+public class Book {                  // Класс Book и его члены должны быть объявлены открытыми, чтобы их можно было использовать в других пакетах.
+    protected String title;
+    protected String author;                   // Теперь переменные объявлены как protected.
+    protected int pubDate;
 
-    Book (String t, String a, int d) {
+    // Теперь конструктор стал открытым
+    public Book (String t, String a, int d) {
         title = t;
         author = a;
         pubDate =- d;
     }
-
-    void show() {
+    // Теперь метод стал открытым
+    public void show() {
         System.out.println(title);
         System.out.println(author);
         System.out.println(pubDate);
