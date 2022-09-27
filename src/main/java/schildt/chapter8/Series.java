@@ -6,22 +6,19 @@ public interface Series {
     void reset();   // сброс
 
     void setStart(int x);   // установка начального значения
-
 }
 
-class ByThrees implements Series {         // Другая реализация интерфейса Series
+class ByTwos implements Series {
     int start;
     int val;
 
-
-    ByThrees() {
+    ByTwos() {
         start = 0;
         val = 0;
     }
 
     public int getNext() {
-
-        val += 3;
+        val += 2;
         return val;
     }
 
@@ -30,33 +27,44 @@ class ByThrees implements Series {         // Другая реализация 
         val = 0;
     }
 
+    public void setStart (int x) {
+        start = x;
+        val = x;
+    }
+}
+class ByThrees implements Series {         // Другая реализация интерфейса Series
+    int start;
+    int val;
+    ByThrees() {
+        start = 0;
+        val = 0;
+    }
+    public int getNext() {
+        val += 3;
+        return val;
+    }
+    public void reset() {
+        start = 0;
+        val = 0;
+    }
     public void setStart(int x) {
         start = x;
         val = x;
-
     }
-
 }
 
-class SeriesDemo {
+class SeriesDemo2 {
     public static void main(String[] args) {
-        ByThrees ob = new ByThrees();
+        ByTwos twoOb = new ByTwos();
+        ByThrees threeOb = new ByThrees();
+        Series ob;
 
         for (int i = 0; i < 5; i++) {
-            System.out.println("Следующее значение: " + ob.getNext());
-        }
-        System.out.println("\nСброс");
-        ob.reset();
+            ob = twoOb;  // Доступ с помощью интерфейсной ссылки
+            System.out.println("Следующее значение ByTwos: " + ob.getNext());   // Доступ с помощью интерфейсной ссылки
 
-
-        for (int i = 0; i < 5; i++) {
-            System.out.println("Следующее значение: " + ob.getNext());
-        }
-        System.out.println("\nНачальное значение: 100");
-        ob.setStart(100);
-        for (int i = 0; i < 5; i++) {
-            System.out.println("Следующее значение: " + ob.getNext());
-
+            ob = threeOb;   // Доступ с помощью интерфейсной ссылки
+            System.out.println("Следующее значение Next ByThrees: " + ob.getNext());  // Доступ с помощью интерфейсной ссылки
         }
     }
 }
