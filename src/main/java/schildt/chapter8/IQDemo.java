@@ -4,6 +4,42 @@ package schildt.chapter8;
 public class IQDemo {
 }
 
+// Динамическая очередь
+class DynQueue implements ICharQ {
+    private char q[];   // массив для хранения очереди индексы вставляемых и извлекаемых элементов
+    private int putloc, getloc;
+
+    // Создание пустой очереди заданного размера
+    public DynQueue (int size) {
+        q = new char[size];   // выделение памяти для очереди
+        putloc = getloc = 0;
+    }
+
+    // Помещение символа в очередь
+    public void put(char ch) {
+        if (putloc == q.length) {
+            // Увеличение размера очереди
+            char t[] = new char[q.length * 2];
+
+            // Копирование элементов в новую очередь
+            for (int i = 0; i < q.length; i++)
+                t[i] = q[i];
+
+            q = t;
+        }
+        q[putloc++] = ch;
+    }
+
+    // Извлечение символа из очереди
+    public char get() {
+        if (getloc == putloc) {
+            System.out.println(" - Очередь пуста");
+            return (char) 0;
+        }
+        return q[getloc++];
+    }
+}
+
 // Класс, реализующий очередь фиксированного размера для хранения символов
 
 class FixedQueue implements ICharQ {
