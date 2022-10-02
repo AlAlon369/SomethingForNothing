@@ -33,3 +33,13 @@ class DefaultMethodDemo {
         System.out.println("Идентификатор администратора: " + obj.getAdminID());
     }
 }
+
+class MyIFImp2 implements MyIF {
+    // Представляются реализции обоих методов - getUserID() и getAdminID()
+    public int getUserID() {
+        return 100;
+    }
+    public int getAdminID() {
+        return 42;
+    }
+}
