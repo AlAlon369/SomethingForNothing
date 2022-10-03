@@ -1,7 +1,16 @@
 package schildt.chapter8;
 
+// Усовершенствованная версия интерфейса Series, которая включает используемый по умолчанию метод getNextArray()
 public interface Series {
-    int getNext();   // возврат следующего по порядку числа
+    int getNext();   // возврат следующего числа в ряду
+
+    // Возврат массива, который содержит n элементов, располагающихся в ряду за текущим элементом.
+    default int[] getNextArray(int n) {
+        int[] vals = new int[n];
+
+        for (int i = 0; i < n; i++) vals[i] = getNext();
+        return vals;
+    }
 
     void reset();   // сброс
 
