@@ -1,17 +1,23 @@
 package schildt.chapter8;
 
-// Усовершенствованная версия интерфейса Series, которая включает используемый по умолчанию метод getNextArray()
+import static com.jogamp.common.nio.Buffers.getArray;
+
+// Еще одна расширенная версия интерфейса Series, включающая два заданных по умолчанию метода и использующая закрытый метод getArray();
 public interface Series {
     int getNext();   // возврат следующего числа в ряду
 
-    // Возврат массива, который содержит n элементов, располагающихся в ряду за текущим элементом.
+    // Возврат массива, который содержит n элементов ряда, помимо текущего элемента
     default int[] getNextArray(int n) {
-        int[] vals = new int[n];
-
-        for (int i = 0; i < n; i++) vals[i] = getNext();
-        return vals;
+        return (int[]) getArray(n);
     }
 
+    // Возврат массива, содержащего следующие n элементов в ряду, после пропуска элементов
+    default int[] skipAndGetNextArray(int skip, int n) {
+        // Пропуск указанного числа элементов
+        getArray(skip);
+
+        return (int[]) getArray(n);
+    }
     void reset();   // сброс
 
     void setStart(int x);   // установка начального значения
