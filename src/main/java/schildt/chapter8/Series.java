@@ -1,7 +1,5 @@
 package schildt.chapter8;
 
-import static com.jogamp.common.nio.Buffers.getArray;
-
 // Еще одна расширенная версия интерфейса Series, включающая два заданных по умолчанию метода и использующая закрытый метод getArray();
 public interface Series {
     int getNext();   // возврат следующего числа в ряду
@@ -18,9 +16,19 @@ public interface Series {
 
         return (int[]) getArray(n);
     }
-    void reset();   // сброс
 
-    void setStart(int x);   // установка начального значения
+    // Закрытый метод, возвращающий массив который содержит n элементов
+    private int[] getArray(int n) {
+        int[] vals = new int[n];
+
+        for (int i = 0; i < n; i++) {
+            vals[i] = getNext();
+        }
+            return vals;
+    }
+
+    void reset();   // перезапуск
+    void setStart(int x);   // Установка начального значения
 }
 
 class ByTwos implements Series {
