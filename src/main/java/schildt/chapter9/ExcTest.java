@@ -1,28 +1,30 @@
 package schildt.chapter9;
 
-// Исключение может быть сгенерировано одним методом, а перехвачено другим
-public class ExcTest {
+// Использование методов класса Throwable
+ class ExcTest {
     // Генерация исключения
     static void genException() {
-        int nums[] = new int [4];
+        int nums[] = new int[4];
 
         System.out.println("До генерации исключения");
 
-        // Выход за пределы массива
+        // Генерация исключения в связи с выходом за пределы массива
         nums[7] = 10;         // Здесь генерируется исключение
         System.out.println("Эта строка не будет отображаться");
-
-        class ExcDemo2 {
+    }
+}
+        class UseThrowableMethods {
             public static void main(String[] args) {
                 try {
                     ExcTest.genException();
                 }
                 catch (ArrayIndexOutOfBoundsException exc) {
-                    System.out.println("Выход за пределы массива!");
+                    // перехват исключения
+                    System.out.println("Стандартное сообщение: ");
+                    System.out.println(exc);
+                    System.out.println("\nСтек вызовов: ");
                 }
                 System.out.println("После инструкции catch");
 
             }
         }
-    }
-}
