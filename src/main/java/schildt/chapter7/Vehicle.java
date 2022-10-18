@@ -1,5 +1,6 @@
 package schildt.chapter7;
 
+
 public class Vehicle {
     private int passangers;          // количество пассажиров
     private int fuelcap;             // емкость топливного бака

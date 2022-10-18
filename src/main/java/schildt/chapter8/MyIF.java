@@ -18,7 +18,7 @@ public interface MyIF {
 }
 
 
-        //   int uID = MyIF.getUniversalID();
+//   int uID = MyIF.getUniversalID();
 
 
 // Использование интерфейсного метода по умолчанию.

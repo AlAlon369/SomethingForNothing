@@ -4,14 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6dbf690-1ab4-4dd7-9318-91d7a7a4c39a" name="Changes" comment="kata 79 solved">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata80.java" afterDir="false" />
+    <list default="true" id="f6dbf690-1ab4-4dd7-9318-91d7a7a4c39a" name="Changes" comment="Использование вложенных блоков тру">
       <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata81.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata82.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata92.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata94.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata96.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Codewars/kata30.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Codewars/kata30.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Others/TwoVehicles.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Others/Vehicle.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Others/VehicleDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/schildt/chapter7/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/schildt/chapter7/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/schildt/chapter8/ICharQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/schildt/chapter8/ICharQ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/schildt/chapter8/MyIF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/schildt/chapter8/MyIF.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +50,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -90,13 +97,13 @@
       <recent name="C:\Users\alone\IdeaProjects\SomethingForNothing\src\main\java\Others" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.kata82">
-    <configuration name="DynShapes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="schildt.chapter7.DynShapes" />
+  <component name="RunManager" selected="Application.FinallyDemo">
+    <configuration name="FinallyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="schildt.chapter9.FinallyDemo" />
       <module name="SomethingForNothing.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="schildt.chapter7.*" />
+          <option name="PATTERN" value="schildt.chapter9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="kata78" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Codewars.kata78" />
+    <configuration name="ThrowDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="schildt.chapter9.ThrowDemo" />
       <module name="SomethingForNothing.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Codewars.*" />
+          <option name="PATTERN" value="schildt.chapter9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +124,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="kata79" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Codewars.kata79" />
+    <configuration name="Unnamed" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <module name="SomethingForNothing.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UseThrowableMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="schildt.chapter9.UseThrowableMethods" />
       <module name="SomethingForNothing.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Codewars.*" />
+          <option name="PATTERN" value="schildt.chapter9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,21 +143,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="kata80" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Codewars.kata80" />
-      <module name="SomethingForNothing.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Codewars.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="kata82" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Codewars.kata82" />
+    <configuration name="kata95" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Codewars.kata95" />
       <module name="SomethingForNothing.main" />
       <extension name="coverage">
         <pattern>
@@ -158,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.kata82" />
-        <item itemvalue="Application.kata80" />
-        <item itemvalue="Application.kata78" />
-        <item itemvalue="Application.kata79" />
-        <item itemvalue="Application.DynShapes" />
+        <item itemvalue="Application.FinallyDemo" />
+        <item itemvalue="Application.UseThrowableMethods" />
+        <item itemvalue="Application.Unnamed" />
+        <item itemvalue="Application.kata95" />
+        <item itemvalue="Application.ThrowDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -261,352 +261,427 @@
       <workItem from="1662800934558" duration="7859000" />
       <workItem from="1662836880388" duration="80000" />
       <workItem from="1662914185095" duration="646000" />
-      <workItem from="1662984345432" duration="8904000" />
+      <workItem from="1662984345432" duration="9551000" />
+      <workItem from="1663000202709" duration="2827000" />
+      <workItem from="1663060017050" duration="8276000" />
+      <workItem from="1663077684971" duration="214000" />
+      <workItem from="1663094714211" duration="570000" />
+      <workItem from="1663142990364" duration="42000" />
+      <workItem from="1663151165264" duration="10564000" />
+      <workItem from="1663161972499" duration="1031000" />
+      <workItem from="1663250451078" duration="112000" />
+      <workItem from="1663262271959" duration="9149000" />
+      <workItem from="1663316922355" duration="11000" />
+      <workItem from="1663322932291" duration="5168000" />
+      <workItem from="1663336993489" duration="4115000" />
+      <workItem from="1663342467798" duration="32000" />
+      <workItem from="1663344889850" duration="125000" />
+      <workItem from="1663413004167" duration="11161000" />
+      <workItem from="1663574962921" duration="51000" />
+      <workItem from="1663585990736" duration="701000" />
+      <workItem from="1663592539141" duration="6558000" />
+      <workItem from="1663601638428" duration="176000" />
+      <workItem from="1663628813644" duration="395000" />
+      <workItem from="1663630132702" duration="919000" />
+      <workItem from="1663631319489" duration="62000" />
+      <workItem from="1663685800903" duration="1258000" />
+      <workItem from="1663689145956" duration="1158000" />
+      <workItem from="1663763678166" duration="11000" />
+      <workItem from="1663775741648" duration="4719000" />
+      <workItem from="1663804702635" duration="77000" />
+      <workItem from="1663805741478" duration="110000" />
+      <workItem from="1663806305233" duration="6000" />
+      <workItem from="1663861274619" duration="3828000" />
+      <workItem from="1663870514711" duration="4000" />
+      <workItem from="1663923837568" duration="2290000" />
+      <workItem from="1663940285257" duration="1676000" />
+      <workItem from="1664021598346" duration="94000" />
+      <workItem from="1664021759223" duration="30000" />
+      <workItem from="1664039582338" duration="423000" />
+      <workItem from="1664040029522" duration="2762000" />
+      <workItem from="1664129456126" duration="35000" />
+      <workItem from="1664129503383" duration="464000" />
+      <workItem from="1664129985964" duration="157000" />
+      <workItem from="1664181430586" duration="245000" />
+      <workItem from="1664211220480" duration="1213000" />
+      <workItem from="1664214531025" duration="85000" />
+      <workItem from="1664288195306" duration="6801000" />
+      <workItem from="1664360203517" duration="988000" />
+      <workItem from="1664371197306" duration="3469000" />
+      <workItem from="1664459899671" duration="6934000" />
+      <workItem from="1664528682900" duration="12000" />
+      <workItem from="1664540691458" duration="5763000" />
+      <workItem from="1664631941031" duration="674000" />
+      <workItem from="1664741960403" duration="1952000" />
+      <workItem from="1664793145261" duration="12000" />
+      <workItem from="1664808566583" duration="649000" />
+      <workItem from="1664827543690" duration="1886000" />
+      <workItem from="1664879662366" duration="10000" />
+      <workItem from="1664890608077" duration="2398000" />
+      <workItem from="1664972615232" duration="21000" />
+      <workItem from="1665075418533" duration="1788000" />
+      <workItem from="1665133744283" duration="932000" />
+      <workItem from="1665264530242" duration="58000" />
+      <workItem from="1665341723702" duration="21000" />
+      <workItem from="1665342400167" duration="2126000" />
+      <workItem from="1665422946135" duration="811000" />
+      <workItem from="1665488400215" duration="19000" />
+      <workItem from="1665520647469" duration="1270000" />
+      <workItem from="1665568101206" duration="77000" />
+      <workItem from="1665585169283" duration="1908000" />
+      <workItem from="1665657965634" duration="617000" />
+      <workItem from="1665674807355" duration="3124000" />
+      <workItem from="1665720275549" duration="42000" />
+      <workItem from="1665770414656" duration="1909000" />
+      <workItem from="1665851673503" duration="6073000" />
+      <workItem from="1665866446141" duration="75000" />
+      <workItem from="1665935350660" duration="223000" />
+      <workItem from="1666006795255" duration="30000" />
     </task>
-    <task id="LOCAL-00118" summary="varArgs4">
-      <created>1661884747604</created>
-      <option name="number" value="00118" />
-      <option name="presentableId" value="LOCAL-00118" />
+    <task id="LOCAL-00173" summary="Kata 84 solved">
+      <created>1663270035489</created>
+      <option name="number" value="00173" />
+      <option name="presentableId" value="LOCAL-00173" />
       <option name="project" value="LOCAL" />
-      <updated>1661884747604</updated>
+      <updated>1663270035490</updated>
     </task>
-    <task id="LOCAL-00119" summary="Вопросы для самопроверки, 6 глава, задание 6">
-      <created>1661884771921</created>
-      <option name="number" value="00119" />
-      <option name="presentableId" value="LOCAL-00119" />
+    <task id="LOCAL-00174" summary="Kata 12 solved">
+      <created>1663270329196</created>
+      <option name="number" value="00174" />
+      <option name="presentableId" value="LOCAL-00174" />
       <option name="project" value="LOCAL" />
-      <updated>1661884771921</updated>
+      <updated>1663270329196</updated>
     </task>
-    <task id="LOCAL-00120" summary="kata57 solved">
-      <created>1661884791323</created>
-      <option name="number" value="00120" />
-      <option name="presentableId" value="LOCAL-00120" />
+    <task id="LOCAL-00175" summary="Kata 12 solved">
+      <created>1663270472621</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
       <option name="project" value="LOCAL" />
-      <updated>1661884791323</updated>
+      <updated>1663270472621</updated>
     </task>
-    <task id="LOCAL-00121" summary="kata59 solved">
-      <created>1661884801787</created>
-      <option name="number" value="00121" />
-      <option name="presentableId" value="LOCAL-00121" />
+    <task id="LOCAL-00176" summary="Kata 90 need help">
+      <created>1663597327479</created>
+      <option name="number" value="00176" />
+      <option name="presentableId" value="LOCAL-00176" />
       <option name="project" value="LOCAL" />
-      <updated>1661884801787</updated>
+      <updated>1663597327480</updated>
     </task>
-    <task id="LOCAL-00122" summary="kata 66 solved">
-      <created>1661956383339</created>
-      <option name="number" value="00122" />
-      <option name="presentableId" value="LOCAL-00122" />
+    <task id="LOCAL-00177" summary="kata 90 solved">
+      <created>1663685815801</created>
+      <option name="number" value="00177" />
+      <option name="presentableId" value="LOCAL-00177" />
       <option name="project" value="LOCAL" />
-      <updated>1661956383339</updated>
+      <updated>1663685815801</updated>
     </task>
-    <task id="LOCAL-00123" summary="kata 65 solved">
-      <created>1661956394360</created>
-      <option name="number" value="00123" />
-      <option name="presentableId" value="LOCAL-00123" />
+    <task id="LOCAL-00178" summary="kata 91 solved">
+      <created>1663686927655</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
       <option name="project" value="LOCAL" />
-      <updated>1661956394360</updated>
+      <updated>1663686927655</updated>
     </task>
-    <task id="LOCAL-00124" summary="kata 62 solved">
-      <created>1661956401118</created>
-      <option name="number" value="00124" />
-      <option name="presentableId" value="LOCAL-00124" />
+    <task id="LOCAL-00179" summary="kata 91 solved">
+      <created>1663863861302</created>
+      <option name="number" value="00179" />
+      <option name="presentableId" value="LOCAL-00179" />
       <option name="project" value="LOCAL" />
-      <updated>1661956401118</updated>
+      <updated>1663863861302</updated>
     </task>
-    <task id="LOCAL-00125" summary="TwoDShape modified">
-      <created>1662039816789</created>
-      <option name="number" value="00125" />
-      <option name="presentableId" value="LOCAL-00125" />
+    <task id="LOCAL-00180" summary="Простая программа демонстрирующая применение пакетов">
+      <created>1663866875045</created>
+      <option name="number" value="00180" />
+      <option name="presentableId" value="LOCAL-00180" />
       <option name="project" value="LOCAL" />
-      <updated>1662039816790</updated>
+      <updated>1663866875045</updated>
     </task>
-    <task id="LOCAL-00126" summary="Использование ключевого слова super">
-      <created>1662040142751</created>
-      <option name="number" value="00126" />
-      <option name="presentableId" value="LOCAL-00126" />
+    <task id="LOCAL-00181" summary="Данный класс принаджежит пакету bookpacketext.&#10;Использование класса Book из пакета schildt.bookpack.Book">
+      <created>1663942125762</created>
+      <option name="number" value="00181" />
+      <option name="presentableId" value="LOCAL-00181" />
       <option name="project" value="LOCAL" />
-      <updated>1662040142751</updated>
+      <updated>1663942125762</updated>
     </task>
-    <task id="LOCAL-00127" summary="Добовление дополнительных конструкторов в класс TwoDShape, используя метод super()">
-      <created>1662041110477</created>
-      <option name="number" value="00127" />
-      <option name="presentableId" value="LOCAL-00127" />
+    <task id="LOCAL-00182" summary="Пример использования модификатора protected">
+      <created>1664130042453</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
       <option name="project" value="LOCAL" />
-      <updated>1662041110477</updated>
+      <updated>1664130042454</updated>
     </task>
-    <task id="LOCAL-00128" summary="Использование ключевого слова super, для предотвращения сокрытия имен">
-      <created>1662042014714</created>
-      <option name="number" value="00128" />
-      <option name="presentableId" value="LOCAL-00128" />
+    <task id="LOCAL-00183" summary="packeges, imports.">
+      <created>1664130096077</created>
+      <option name="number" value="00183" />
+      <option name="presentableId" value="LOCAL-00183" />
       <option name="project" value="LOCAL" />
-      <updated>1662042014714</updated>
+      <updated>1664130096077</updated>
     </task>
-    <task id="LOCAL-00129" summary="Упражнение 7.1 Расширение класса Vehicle">
-      <created>1662139212259</created>
-      <option name="number" value="00129" />
-      <option name="presentableId" value="LOCAL-00129" />
+    <task id="LOCAL-00184" summary="Использование класса UseBook при помощи пакета schildt.bookpack">
+      <created>1664130136082</created>
+      <option name="number" value="00184" />
+      <option name="presentableId" value="LOCAL-00184" />
       <option name="project" value="LOCAL" />
-      <updated>1662139212259</updated>
+      <updated>1664130136082</updated>
     </task>
-    <task id="LOCAL-00130" summary="kata 2 completed">
-      <created>1662139259486</created>
-      <option name="number" value="00130" />
-      <option name="presentableId" value="LOCAL-00130" />
+    <task id="LOCAL-00185" summary="Создание интерфейса">
+      <created>1664211429088</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
       <option name="project" value="LOCAL" />
-      <updated>1662139259486</updated>
+      <updated>1664211429088</updated>
     </task>
-    <task id="LOCAL-00131" summary="push">
-      <created>1662139299587</created>
-      <option name="number" value="00131" />
-      <option name="presentableId" value="LOCAL-00131" />
+    <task id="LOCAL-00186" summary="Реализация интерфейса Series">
+      <created>1664211703255</created>
+      <option name="number" value="00186" />
+      <option name="presentableId" value="LOCAL-00186" />
       <option name="project" value="LOCAL" />
-      <updated>1662139299587</updated>
+      <updated>1664211703256</updated>
     </task>
-    <task id="LOCAL-00132" summary="Многоуровневая иерархия">
-      <created>1662216082158</created>
-      <option name="number" value="00132" />
-      <option name="presentableId" value="LOCAL-00132" />
+    <task id="LOCAL-00187" summary="Реализация интерфейса Series и добавление метода getPrevious()">
+      <created>1664212048348</created>
+      <option name="number" value="00187" />
+      <option name="presentableId" value="LOCAL-00187" />
       <option name="project" value="LOCAL" />
-      <updated>1662216082160</updated>
+      <updated>1664212048349</updated>
     </task>
-    <task id="LOCAL-00133" summary="kata80 solved">
-      <created>1662216098565</created>
-      <option name="number" value="00133" />
-      <option name="presentableId" value="LOCAL-00133" />
+    <task id="LOCAL-00188" summary="Bytwos, метод getPrevious()">
+      <created>1664292291019</created>
+      <option name="number" value="00188" />
+      <option name="presentableId" value="LOCAL-00188" />
       <option name="project" value="LOCAL" />
-      <updated>1662216098565</updated>
+      <updated>1664292291019</updated>
     </task>
-    <task id="LOCAL-00134" summary="kata69 solved">
-      <created>1662216108973</created>
-      <option name="number" value="00134" />
-      <option name="presentableId" value="LOCAL-00134" />
+    <task id="LOCAL-00189" summary="Еще одна реализация интерфейса Series&#10;ByThrees">
+      <created>1664292569812</created>
+      <option name="number" value="00189" />
+      <option name="presentableId" value="LOCAL-00189" />
       <option name="project" value="LOCAL" />
-      <updated>1662216108973</updated>
+      <updated>1664292569812</updated>
     </task>
-    <task id="LOCAL-00135" summary="push">
-      <created>1662216636672</created>
-      <option name="number" value="00135" />
-      <option name="presentableId" value="LOCAL-00135" />
+    <task id="LOCAL-00190" summary="Использование интерфейсных ссылок.&#10;Доступ к объекту с помощью интерфейсной ссылки">
+      <created>1664293919685</created>
+      <option name="number" value="00190" />
+      <option name="presentableId" value="LOCAL-00190" />
       <option name="project" value="LOCAL" />
-      <updated>1662216636672</updated>
+      <updated>1664293919686</updated>
     </task>
-    <task id="LOCAL-00136" summary="Демостранция очередности вызова конструкторов">
-      <created>1662216661958</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
+    <task id="LOCAL-00191" summary="Создание интерфейса, помещение/извлечение символа">
+      <created>1664371920939</created>
+      <option name="number" value="00191" />
+      <option name="presentableId" value="LOCAL-00191" />
       <option name="project" value="LOCAL" />
-      <updated>1662216661958</updated>
+      <updated>1664371920939</updated>
     </task>
-    <task id="LOCAL-00137" summary="kata 61 solved">
-      <created>1662321439616</created>
-      <option name="number" value="00137" />
-      <option name="presentableId" value="LOCAL-00137" />
+    <task id="LOCAL-00192" summary="класс FixedQueue, создание пустой очереди, помещение символа в очередь, извлечение символа из очереди">
+      <created>1664373235172</created>
+      <option name="number" value="00192" />
+      <option name="presentableId" value="LOCAL-00192" />
       <option name="project" value="LOCAL" />
-      <updated>1662321439617</updated>
+      <updated>1664373235172</updated>
     </task>
-    <task id="LOCAL-00138" summary="push">
-      <created>1662321453940</created>
-      <option name="number" value="00138" />
-      <option name="presentableId" value="LOCAL-00138" />
+    <task id="LOCAL-00193" summary="класс CircularQueue, реализация кольцевой очереди, которая предназначена для хранения символов">
+      <created>1664374183517</created>
+      <option name="number" value="00193" />
+      <option name="presentableId" value="LOCAL-00193" />
       <option name="project" value="LOCAL" />
-      <updated>1662321453940</updated>
+      <updated>1664374183517</updated>
     </task>
-    <task id="LOCAL-00139" summary="kata 67 solved">
-      <created>1662321467930</created>
-      <option name="number" value="00139" />
-      <option name="presentableId" value="LOCAL-00139" />
+    <task id="LOCAL-00194" summary="Класс DynQueue, который реализует динамическую, или &quot;растущую&quot; очередь, размеры которой увеличиваются, когда в ней н ехватает места для символов">
+      <created>1664460800029</created>
+      <option name="number" value="00194" />
+      <option name="presentableId" value="LOCAL-00194" />
       <option name="project" value="LOCAL" />
-      <updated>1662321467930</updated>
+      <updated>1664460800030</updated>
     </task>
-    <task id="LOCAL-00140" summary="Обращение к объекту подкласса по ссылочной перемменной суперкласса">
-      <created>1662396338295</created>
-      <option name="number" value="00140" />
-      <option name="presentableId" value="LOCAL-00140" />
+    <task id="LOCAL-00195" summary="Демонстрация двух роеализаций интерфейса iCharQ: Помещение ряда символов в очередь фиксированного размера. Помещение ряда символов в динамическую очередь">
+      <created>1664461519730</created>
+      <option name="number" value="00195" />
+      <option name="presentableId" value="LOCAL-00195" />
       <option name="project" value="LOCAL" />
-      <updated>1662396338296</updated>
+      <updated>1664461519730</updated>
     </task>
-    <task id="LOCAL-00141" summary="Этот код не пройдет компиляцию, поскольку переменные x и y разных типов.">
-      <created>1662396631965</created>
-      <option name="number" value="00141" />
-      <option name="presentableId" value="LOCAL-00141" />
+    <task id="LOCAL-00196" summary="Еще одна реализация интерфейса ICharQ.&#10;Помещение дополнительных символов в кольцевую очередь">
+      <created>1664462423811</created>
+      <option name="number" value="00196" />
+      <option name="presentableId" value="LOCAL-00196" />
       <option name="project" value="LOCAL" />
-      <updated>1662396631965</updated>
+      <updated>1664462423811</updated>
     </task>
-    <task id="LOCAL-00142" summary="kata 68 solved">
-      <created>1662496141314</created>
-      <option name="number" value="00142" />
-      <option name="presentableId" value="LOCAL-00142" />
+    <task id="LOCAL-00197" summary="kata 93 solved">
+      <created>1664545415139</created>
+      <option name="number" value="00197" />
+      <option name="presentableId" value="LOCAL-00197" />
       <option name="project" value="LOCAL" />
-      <updated>1662496141315</updated>
+      <updated>1664545415139</updated>
     </task>
-    <task id="LOCAL-00143" summary="push">
-      <created>1662496162764</created>
-      <option name="number" value="00143" />
-      <option name="presentableId" value="LOCAL-00143" />
+    <task id="LOCAL-00198" summary="Интерфейс содержащий только константы (для ознакомления)">
+      <created>1664545456888</created>
+      <option name="number" value="00198" />
+      <option name="presentableId" value="LOCAL-00198" />
       <option name="project" value="LOCAL" />
-      <updated>1662496162764</updated>
+      <updated>1664545456888</updated>
     </task>
-    <task id="LOCAL-00144" summary="kata 70 solved">
-      <created>1662496182515</created>
-      <option name="number" value="00144" />
-      <option name="presentableId" value="LOCAL-00144" />
+    <task id="LOCAL-00199" summary="Наследование интерфейсов">
+      <created>1664631995531</created>
+      <option name="number" value="00199" />
+      <option name="presentableId" value="LOCAL-00199" />
       <option name="project" value="LOCAL" />
-      <updated>1662496182515</updated>
+      <updated>1664631995532</updated>
     </task>
-    <task id="LOCAL-00145" summary="push">
-      <created>1662496195406</created>
-      <option name="number" value="00145" />
-      <option name="presentableId" value="LOCAL-00145" />
+    <task id="LOCAL-00200" summary="Объявление обычного метода интерфейса, которое не включает определение реализации по умолчанию.">
+      <created>1664743032619</created>
+      <option name="number" value="00200" />
+      <option name="presentableId" value="LOCAL-00200" />
       <option name="project" value="LOCAL" />
-      <updated>1662496195406</updated>
+      <updated>1664743032619</updated>
     </task>
-    <task id="LOCAL-00146" summary="kata 75 solved">
-      <created>1662564210866</created>
-      <option name="number" value="00146" />
-      <option name="presentableId" value="LOCAL-00146" />
+    <task id="LOCAL-00201" summary="Созданный экземпляр класса MyIFImp и использует его для вызова обоих методов, getUserID() и getAdminID().">
+      <created>1664743373349</created>
+      <option name="number" value="00201" />
+      <option name="presentableId" value="LOCAL-00201" />
       <option name="project" value="LOCAL" />
-      <updated>1662564210866</updated>
+      <updated>1664743373349</updated>
     </task>
-    <task id="LOCAL-00147" summary="push">
-      <created>1662564225319</created>
-      <option name="number" value="00147" />
-      <option name="presentableId" value="LOCAL-00147" />
+    <task id="LOCAL-00202" summary="Класс MyIFImp2, переопределяющий метод getAdminID()">
+      <created>1664743552715</created>
+      <option name="number" value="00202" />
+      <option name="presentableId" value="LOCAL-00202" />
       <option name="project" value="LOCAL" />
-      <updated>1662564225319</updated>
+      <updated>1664743552715</updated>
     </task>
-    <task id="LOCAL-00148" summary="конструирование объекта на основе другого объекта, передача ссылки Triangle конструктору TwoDShape">
-      <created>1662564248062</created>
-      <option name="number" value="00148" />
-      <option name="presentableId" value="LOCAL-00148" />
+    <task id="LOCAL-00203" summary="Усовершенствованная версия интерфейса Series, которая включает используемый по умолчанию метод getNextArray()">
+      <created>1664829087949</created>
+      <option name="number" value="00203" />
+      <option name="presentableId" value="LOCAL-00203" />
       <option name="project" value="LOCAL" />
-      <updated>1662564248062</updated>
+      <updated>1664829087950</updated>
     </task>
-    <task id="LOCAL-00149" summary="// Переопределение метода">
-      <created>1662656220769</created>
-      <option name="number" value="00149" />
-      <option name="presentableId" value="LOCAL-00149" />
+    <task id="LOCAL-00204" summary="Объявление статического метода интерфейса">
+      <created>1664893514495</created>
+      <option name="number" value="00204" />
+      <option name="presentableId" value="LOCAL-00204" />
       <option name="project" value="LOCAL" />
-      <updated>1662656220769</updated>
+      <updated>1664893514495</updated>
     </task>
-    <task id="LOCAL-00150" summary="push">
-      <created>1662656231058</created>
-      <option name="number" value="00150" />
-      <option name="presentableId" value="LOCAL-00150" />
+    <task id="LOCAL-00205" summary="Возврат массива, содержащего n элементов в ряду, после пропуска элементов + cast int[]">
+      <created>1664893856515</created>
+      <option name="number" value="00205" />
+      <option name="presentableId" value="LOCAL-00205" />
       <option name="project" value="LOCAL" />
-      <updated>1662656231059</updated>
+      <updated>1664893856515</updated>
     </task>
-    <task id="LOCAL-00151" summary="Методы с разными сигнатурами не переопределяются, а перегружаются.">
-      <created>1662656580641</created>
-      <option name="number" value="00151" />
-      <option name="presentableId" value="LOCAL-00151" />
+    <task id="LOCAL-00206" summary="Закрытый метод, возвращающий массив, который содержит следующие n элементов.&#10;перезапуск, установка начального значения">
+      <created>1664894117886</created>
+      <option name="number" value="00206" />
+      <option name="presentableId" value="LOCAL-00206" />
       <option name="project" value="LOCAL" />
-      <updated>1662656580641</updated>
+      <updated>1664894117886</updated>
     </task>
-    <task id="LOCAL-00152" summary="push">
-      <created>1662656654756</created>
-      <option name="number" value="00152" />
-      <option name="presentableId" value="LOCAL-00152" />
+    <task id="LOCAL-00207" summary="Создание интерфейса для класса Vehicle, рассмотренного в главе 7">
+      <created>1665077756589</created>
+      <option name="number" value="00207" />
+      <option name="presentableId" value="LOCAL-00207" />
       <option name="project" value="LOCAL" />
-      <updated>1662656654756</updated>
+      <updated>1665077756591</updated>
     </task>
-    <task id="LOCAL-00153" summary="push">
-      <created>1662745021295</created>
-      <option name="number" value="00153" />
-      <option name="presentableId" value="LOCAL-00153" />
+    <task id="LOCAL-00208" summary="Демонстрация обработки исключений">
+      <created>1665347716009</created>
+      <option name="number" value="00208" />
+      <option name="presentableId" value="LOCAL-00208" />
       <option name="project" value="LOCAL" />
-      <updated>1662745021296</updated>
+      <updated>1665347716009</updated>
     </task>
-    <task id="LOCAL-00154" summary="Использование динамической диспетчеризации методов">
-      <created>1662745054433</created>
-      <option name="number" value="00154" />
-      <option name="presentableId" value="LOCAL-00154" />
+    <task id="LOCAL-00209" summary="Исключение может быть сгенерировано одним методом, а перехвачено другим.">
+      <created>1665423670773</created>
+      <option name="number" value="00209" />
+      <option name="presentableId" value="LOCAL-00209" />
       <option name="project" value="LOCAL" />
-      <updated>1662745054433</updated>
+      <updated>1665423670774</updated>
     </task>
-    <task id="LOCAL-00155" summary="Демонстрация динамической диспетчеризации методов">
-      <created>1662745096361</created>
-      <option name="number" value="00155" />
-      <option name="presentableId" value="LOCAL-00155" />
+    <task id="LOCAL-00210" summary="jdk update">
+      <created>1665423713331</created>
+      <option name="number" value="00210" />
+      <option name="presentableId" value="LOCAL-00210" />
       <option name="project" value="LOCAL" />
-      <updated>1662745096361</updated>
+      <updated>1665423713331</updated>
     </task>
-    <task id="LOCAL-00156" summary="kata 71 solved">
-      <created>1662745112418</created>
-      <option name="number" value="00156" />
-      <option name="presentableId" value="LOCAL-00156" />
+    <task id="LOCAL-00211" summary="// Обработка ошибки средствами виртуальной машины Java">
+      <created>1665520751285</created>
+      <option name="number" value="00211" />
+      <option name="presentableId" value="LOCAL-00211" />
       <option name="project" value="LOCAL" />
-      <updated>1662745112418</updated>
+      <updated>1665520751285</updated>
     </task>
-    <task id="LOCAL-00157" summary="push">
-      <created>1662836893485</created>
-      <option name="number" value="00157" />
-      <option name="presentableId" value="LOCAL-00157" />
+    <task id="LOCAL-00212" summary="// Эта программа не будет работать, ArrayIndexOutBoundsException">
+      <created>1665521095986</created>
+      <option name="number" value="00212" />
+      <option name="presentableId" value="LOCAL-00212" />
       <option name="project" value="LOCAL" />
-      <updated>1662836893486</updated>
+      <updated>1665521095986</updated>
     </task>
-    <task id="LOCAL-00158" summary="kata 72 solved">
-      <created>1662836910146</created>
-      <option name="number" value="00158" />
-      <option name="presentableId" value="LOCAL-00158" />
+    <task id="LOCAL-00213" summary="Корректная обработка исключения и продолжение выполнения программы.">
+      <created>1665521321451</created>
+      <option name="number" value="00213" />
+      <option name="presentableId" value="LOCAL-00213" />
       <option name="project" value="LOCAL" />
-      <updated>1662836910146</updated>
+      <updated>1665521321451</updated>
     </task>
-    <task id="LOCAL-00159" summary="kata 73 solved">
-      <created>1662836918187</created>
-      <option name="number" value="00159" />
-      <option name="presentableId" value="LOCAL-00159" />
+    <task id="LOCAL-00214" summary="Применение нескольких инструкций catch">
+      <created>1665588945476</created>
+      <option name="number" value="00214" />
+      <option name="presentableId" value="LOCAL-00214" />
       <option name="project" value="LOCAL" />
-      <updated>1662836918188</updated>
+      <updated>1665588945477</updated>
     </task>
-    <task id="LOCAL-00160" summary="kata 74 solved">
-      <created>1662836931875</created>
-      <option name="number" value="00160" />
-      <option name="presentableId" value="LOCAL-00160" />
+    <task id="LOCAL-00215" summary="Исключения подкласса должны предшествовать исключеням суперкласса">
+      <created>1665675772765</created>
+      <option name="number" value="00215" />
+      <option name="presentableId" value="LOCAL-00215" />
       <option name="project" value="LOCAL" />
-      <updated>1662836931875</updated>
+      <updated>1665675772765</updated>
     </task>
-    <task id="LOCAL-00161" summary="kata 76 solved">
-      <created>1662836950277</created>
-      <option name="number" value="00161" />
-      <option name="presentableId" value="LOCAL-00161" />
+    <task id="LOCAL-00216" summary="Генерирование исключения вручную">
+      <created>1665772523696</created>
+      <option name="number" value="00216" />
+      <option name="presentableId" value="LOCAL-00216" />
       <option name="project" value="LOCAL" />
-      <updated>1662836950277</updated>
+      <updated>1665772523696</updated>
     </task>
-    <task id="LOCAL-00162" summary="push">
-      <created>1662914198680</created>
-      <option name="number" value="00162" />
-      <option name="presentableId" value="LOCAL-00162" />
+    <task id="LOCAL-00217" summary="Повторное генерирование исключений">
+      <created>1665773100318</created>
+      <option name="number" value="00217" />
+      <option name="presentableId" value="LOCAL-00217" />
       <option name="project" value="LOCAL" />
-      <updated>1662914198681</updated>
+      <updated>1665773100318</updated>
     </task>
-    <task id="LOCAL-00163" summary="kata 77 solved">
-      <created>1662914224019</created>
-      <option name="number" value="00163" />
-      <option name="presentableId" value="LOCAL-00163" />
+    <task id="LOCAL-00218" summary="kata96 solved">
+      <created>1665855668634</created>
+      <option name="number" value="00218" />
+      <option name="presentableId" value="LOCAL-00218" />
       <option name="project" value="LOCAL" />
-      <updated>1662914224020</updated>
+      <updated>1665855668634</updated>
     </task>
-    <task id="LOCAL-00164" summary="kata 78 solved">
-      <created>1662914233567</created>
-      <option name="number" value="00164" />
-      <option name="presentableId" value="LOCAL-00164" />
+    <task id="LOCAL-00219" summary="// Использование методов класса Throwable">
+      <created>1665856702976</created>
+      <option name="number" value="00219" />
+      <option name="presentableId" value="LOCAL-00219" />
       <option name="project" value="LOCAL" />
-      <updated>1662914233567</updated>
+      <updated>1665856702976</updated>
     </task>
-    <task id="LOCAL-00165" summary="push">
-      <created>1662986335654</created>
-      <option name="number" value="00165" />
-      <option name="presentableId" value="LOCAL-00165" />
+    <task id="LOCAL-00220" summary="Использование блока finally">
+      <created>1665857683087</created>
+      <option name="number" value="00220" />
+      <option name="presentableId" value="LOCAL-00220" />
       <option name="project" value="LOCAL" />
-      <updated>1662986335654</updated>
+      <updated>1665857683087</updated>
     </task>
-    <task id="LOCAL-00166" summary="kata 79 solved">
-      <created>1662986353305</created>
-      <option name="number" value="00166" />
-      <option name="presentableId" value="LOCAL-00166" />
+    <task id="LOCAL-00221" summary="Использование вложенных блоков тру">
+      <created>1665935547199</created>
+      <option name="number" value="00221" />
+      <option name="presentableId" value="LOCAL-00221" />
       <option name="project" value="LOCAL" />
-      <updated>1662986353305</updated>
+      <updated>1665935547199</updated>
     </task>
-    <option name="localTasksCounter" value="167" />
+    <option name="localTasksCounter" value="222" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -624,32 +699,32 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Многоуровневая иерархия" />
-    <MESSAGE value="kata80 solved" />
-    <MESSAGE value="kata69 solved" />
-    <MESSAGE value="Демостранция очередности вызова конструкторов" />
-    <MESSAGE value="kata 61 solved" />
-    <MESSAGE value="kata 67 solved" />
-    <MESSAGE value="Обращение к объекту подкласса по ссылочной перемменной суперкласса" />
-    <MESSAGE value="Этот код не пройдет компиляцию, поскольку переменные x и y разных типов." />
-    <MESSAGE value="kata 68 solved" />
-    <MESSAGE value="kata 70 solved" />
-    <MESSAGE value="kata 75 solved" />
-    <MESSAGE value="конструирование объекта на основе другого объекта, передача ссылки Triangle конструктору TwoDShape" />
-    <MESSAGE value="// Переопределение метода" />
-    <MESSAGE value="Методы с разными сигнатурами не переопределяются, а перегружаются." />
-    <MESSAGE value="Использование динамической диспетчеризации методов" />
-    <MESSAGE value="Демонстрация динамической диспетчеризации методов" />
-    <MESSAGE value="kata 71 solved" />
-    <MESSAGE value="kata 72 solved" />
-    <MESSAGE value="kata 73 solved" />
-    <MESSAGE value="kata 74 solved" />
-    <MESSAGE value="kata 76 solved" />
-    <MESSAGE value="kata 77 solved" />
-    <MESSAGE value="kata 78 solved" />
-    <MESSAGE value="push" />
-    <MESSAGE value="kata 79 solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="kata 79 solved" />
+    <MESSAGE value="kata 93 solved" />
+    <MESSAGE value="Интерфейс содержащий только константы (для ознакомления)" />
+    <MESSAGE value="Наследование интерфейсов" />
+    <MESSAGE value="Объявление обычного метода интерфейса, которое не включает определение реализации по умолчанию." />
+    <MESSAGE value="Созданный экземпляр класса MyIFImp и использует его для вызова обоих методов, getUserID() и getAdminID()." />
+    <MESSAGE value="Класс MyIFImp2, переопределяющий метод getAdminID()" />
+    <MESSAGE value="Усовершенствованная версия интерфейса Series, которая включает используемый по умолчанию метод getNextArray()" />
+    <MESSAGE value="Объявление статического метода интерфейса" />
+    <MESSAGE value="Возврат массива, содержащего n элементов в ряду, после пропуска элементов + cast int[]" />
+    <MESSAGE value="Закрытый метод, возвращающий массив, который содержит следующие n элементов.&#10;перезапуск, установка начального значения" />
+    <MESSAGE value="Создание интерфейса для класса Vehicle, рассмотренного в главе 7" />
+    <MESSAGE value="Демонстрация обработки исключений" />
+    <MESSAGE value="Исключение может быть сгенерировано одним методом, а перехвачено другим." />
+    <MESSAGE value="jdk update" />
+    <MESSAGE value="// Обработка ошибки средствами виртуальной машины Java" />
+    <MESSAGE value="// Эта программа не будет работать, ArrayIndexOutBoundsException" />
+    <MESSAGE value="Корректная обработка исключения и продолжение выполнения программы." />
+    <MESSAGE value="Применение нескольких инструкций catch" />
+    <MESSAGE value="Исключения подкласса должны предшествовать исключеням суперкласса" />
+    <MESSAGE value="Генерирование исключения вручную" />
+    <MESSAGE value="Повторное генерирование исключений" />
+    <MESSAGE value="kata96 solved" />
+    <MESSAGE value="// Использование методов класса Throwable" />
+    <MESSAGE value="Использование блока finally" />
+    <MESSAGE value="Использование вложенных блоков тру" />
+    <option name="LAST_COMMIT_MESSAGE" value="Использование вложенных блоков тру" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -669,20 +744,6 @@
           <line>43</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/schildt/chapter7/TwoDShape.java</url>
-          <line>138</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/schildt/chapter7/TwoDShape.java</url>
-          <line>86</line>
-          <properties class="schildt.chapter7.Triangle" method="area">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -690,5 +751,8 @@
         <watch expression="sb" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SomethingForNothing$Unnamed.ic" NAME="Unnamed Coverage Results" MODIFIED="1665856591484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

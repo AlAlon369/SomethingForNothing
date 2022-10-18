@@ -8,3 +8,4 @@ public interface ICharQ {
     // Извлечение символа из очереди
     char get();
 }
+
