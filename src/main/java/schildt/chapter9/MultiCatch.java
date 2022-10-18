@@ -20,5 +20,6 @@ public class MultiCatch {
             }
         }
         System.out.println("После группового перехватчика исключений");
+
     }
 }
