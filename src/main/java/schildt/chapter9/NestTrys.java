@@ -1,5 +1,4 @@
 package schildt.chapter9;
-
 public class NestTrys {
     public static void main(String[] args) {
         // Длинна массива numer превышает длину массива denom
