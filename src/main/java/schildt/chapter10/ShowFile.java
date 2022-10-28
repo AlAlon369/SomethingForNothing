@@ -11,11 +11,10 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 
 public class ShowFile {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) throws IOException {
         int i;
-        FileInputStream fin;
-        // Сначала нужно убедиться в том, что программе передается имя файла.
+        FileInputStream fin = null;   // переменная fin инициализируется значением null
+        // Сначала нужно убедиться в том, что программе передается имя файла
         if (args.length != 1) {
             System.out.println("Использование: ShowFile имя_файла");
             return;
@@ -23,24 +22,23 @@ public class ShowFile {
 
         try {
             fin = new FileInputStream(args[0]);   //   <-- Открытие файла
-        } catch (FileNotFoundException exc) {
-            System.out.println("Файл не найден");
-            return;
-        }
 
-        try {
-            // Чтение байтов, пока не встретится символ EOF
             do {
-                i = fin.read();   // <--   Cчитывание данных из файла
+                i = fin.read();
                 if (i != -1) System.out.print((char) i);
-                } while (i != -1);
-        } catch (IOException exc) {
-            System.out.println("Ошибка при чтении файла");
-        }
-        try {
-            fin.close();   // Закрытие файла
-        } catch (IOException exc) {
-            System.out.println("Ошибка при закрытии файла");
+            } while (i != -1);
+
+        } catch (FileNotFoundException exc) {
+            System.out.println("Ошибка ввода-вывода");
+        } finally {
+            // Файл закрывается в любом случае
+            try {
+                if (fin != null) fin.close();
+            } catch (IOException exc) {
+                System.out.println("Ошибка при закрытии файла");
+            }
         }
     }
 }
+
+
