@@ -8,37 +8,33 @@ package schildt.chapter10;
 import java.io.*;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 
 public class ShowFile {
     public static void main(String[] args) throws IOException {
         int i;
-        FileInputStream fin = null;   // переменная fin инициализируется значением null
-        // Сначала нужно убедиться в том, что программе передается имя файла
-        if (args.length != 1) {
-            System.out.println("Использование: ShowFile имя_файла");
+
+        // Прежде всего необходимо убедиться в том, что программе передаются имена обоих файлов
+
+        if (args.length != 2) {
+            System.out.println("Использование: CopyFile - источник и назначение ");
             return;
         }
 
-        try {
-            fin = new FileInputStream(args[0]);   //   <-- Открытие файла
+        // Открытие двух файлов и управление ими с помощью инструкции try
 
+        try (FileInputStream fin = new FileInputStream(args[0]);
+        FileOutputStream fout = new FileOutputStream(args[1]))
+        {
             do {
                 i = fin.read();
-                if (i != -1) System.out.print((char) i);
+                if (i != -1) fout.write(i);
             } while (i != -1);
 
-        } catch (FileNotFoundException exc) {
-            System.out.println("Ошибка ввода-вывода");
-        } finally {
-            // Файл закрывается в любом случае
-            try {
-                if (fin != null) fin.close();
-            } catch (IOException exc) {
-                System.out.println("Ошибка при закрытии файла");
+        } catch(IOException exc) {
+            System.out.println("Ошибка ввода-вывода: " + exc);
             }
         }
     }
-}
+
 
 
