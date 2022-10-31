@@ -28,5 +28,24 @@ public class RWData {
         }
 
         System.out.println();
+
+        // А теперь прочитать записанные значения
+
+        try (DataInputStream dataIn = new DataInputStream (new FileInputStream("testdata"))) {
+            i = dataIn.readInt();
+            System.out.println("Прочитано " + i);
+
+            d = dataIn.readDouble();
+            System.out.println("Прочитано: " + d);
+
+            b = dataIn.readBoolean();
+            System.out.println("Прочитано: " + b);
+
+            d = dataIn.readDouble();
+            System.out.println("Прочитано: " + d);
+        }
+        catch (IOException exc) {
+            System.out.println("Ошибка при чтении");
+        }
     }
 }
