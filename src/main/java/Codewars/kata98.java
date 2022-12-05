@@ -24,7 +24,7 @@ public class kata98 {
     // Если a = 1, b = 2, тогда a + b = c, так как c = 3;
     // Если выходить за пределы алфавита, то счет продолжается, пример:
     // addLetters("y", "c", "b") = "d" // notice the letters overflowing
-    // y = 25, + c, где с = 3, + b, где b = 2. = "d', где d = 4.
+    // y = 25, + c, где с = 3, + b, где b = 2. = "d', где d = 4. etc
 
 
     public static String addLetters(String... letters) {
