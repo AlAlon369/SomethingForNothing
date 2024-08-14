@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6dbf690-1ab4-4dd7-9318-91d7a7a4c39a" name="Changes" comment="kata solved">
-      <change beforePath="$PROJECT_DIR$/../SomethingForNothing/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SomethingForNothing/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SomethingForNothing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SomethingForNothing/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SomethingForNothing/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../SomethingForNothing/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SomethingForNothing/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../SomethingForNothing/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SomethingForNothing/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../SomethingForNothing/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SomethingForNothing/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../SomethingForNothing/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="f6dbf690-1ab4-4dd7-9318-91d7a7a4c39a" name="Changes" comment="test">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +15,6 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExternalProjectsData">
-    <projectState path="$PROJECT_DIR$/../SomethingForNothing">
-      <ProjectState />
-    </projectState>
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
@@ -62,7 +51,7 @@
         <entry key="$PROJECT_DIR$" value="ff09fd679f2924974aef5d8f55400919b7cdadc7" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../SomethingForNothing" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
@@ -88,15 +77,15 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/SomethingForNothing",
+    "last_opened_file_path": "C:/Users/Zori2/IdeaProjects/my-todo",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
@@ -358,10 +347,8 @@
       <workItem from="1665935350660" duration="223000" />
       <workItem from="1666006795255" duration="30000" />
       <workItem from="1670138979239" duration="12383000" />
-      <workItem from="1723658484911" duration="3379000" />
-      <workItem from="1723662333327" duration="105000" />
-      <workItem from="1723662481120" duration="307000" />
-      <workItem from="1723668210352" duration="285000" />
+      <workItem from="1723655497109" duration="142000" />
+      <workItem from="1723655660494" duration="270000" />
     </task>
     <task id="LOCAL-00173" summary="Kata 84 solved">
       <created>1663270035489</created>
@@ -781,10 +768,6 @@
         <watch expression="sb" />
       </configuration>
     </watches-manager>
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SomethingForNothing$Unnamed.ic" NAME="Unnamed Coverage Results" MODIFIED="1665856591484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
