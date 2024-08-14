@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6dbf690-1ab4-4dd7-9318-91d7a7a4c39a" name="Changes" comment="test">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +49,7 @@
         <entry key="$PROJECT_DIR$" value="ff09fd679f2924974aef5d8f55400919b7cdadc7" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../SomethingForNothing" />
   </component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
@@ -83,9 +81,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
@@ -95,13 +93,13 @@
       <recent name="C:\Users\alone\IdeaProjects\SomethingForNothing\src\main\java\Others" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.kata98">
-    <configuration name="FinallyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="schildt.chapter9.FinallyDemo" />
-      <module name="SomethingForNothing.main" />
+  <component name="RunManager" selected="Application.kata100">
+    <configuration name="kata100" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Codewars.kata100" />
+      <module name="org.example.SomethingForNothing.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="schildt.chapter9.*" />
+          <option name="PATTERN" value="Codewars.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,18 +107,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Unnamed" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <module name="SomethingForNothing.main" />
+    <configuration name="kata102" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Codewars.kata102" />
+      <module name="org.example.SomethingForNothing.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Codewars.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UseThrowableMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="schildt.chapter9.UseThrowableMethods" />
-      <module name="SomethingForNothing.main" />
+    <configuration name="kata104" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Codewars.kata104" />
+      <module name="org.example.SomethingForNothing.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="schildt.chapter9.*" />
+          <option name="PATTERN" value="Codewars.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.kata100" />
+        <item itemvalue="Application.kata102" />
+        <item itemvalue="Application.kata104" />
         <item itemvalue="Application.kata98" />
         <item itemvalue="Application.kata96" />
-        <item itemvalue="Application.FinallyDemo" />
-        <item itemvalue="Application.UseThrowableMethods" />
-        <item itemvalue="Application.Unnamed" />
       </list>
     </recent_temporary>
   </component>
@@ -711,7 +716,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="kata 93 solved" />
     <MESSAGE value="Интерфейс содержащий только константы (для ознакомления)" />
     <MESSAGE value="Наследование интерфейсов" />
     <MESSAGE value="Объявление обычного метода интерфейса, которое не включает определение реализации по умолчанию." />
@@ -736,7 +740,8 @@
     <MESSAGE value="// Использование методов класса Throwable" />
     <MESSAGE value="Использование блока finally" />
     <MESSAGE value="Использование вложенных блоков тру" />
-    <option name="LAST_COMMIT_MESSAGE" value="Использование вложенных блоков тру" />
+    <MESSAGE value="updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -768,6 +773,10 @@
         <watch expression="sb" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SomethingForNothing$Unnamed.ic" NAME="Unnamed Coverage Results" MODIFIED="1665856591484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
